@@ -26,7 +26,7 @@ body{
 	object-fit: cover;
 }
 
-.navbar-brand{padding-top: 15px;}	
+.navbar-brand{padding-top: 7px;}	
 
 .navbar-brand h1{
 	text-align: center;
@@ -41,6 +41,14 @@ body{
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus{text-decoration: none;}
+
+.navbar-brand p {
+	color: #000;
+	text-transform: uppercase;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16;
+	margin-top: 10px;
+}
 
 #nav-list{margin-top: 10px; }
 
@@ -67,6 +75,45 @@ body{
 	border: 2px solid #474747;
 }
 
+#FOREX-tile, #Currencies-tile, #Predictions-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #474747;
+	overflow: hidden;
+}
+
+#FOREX-tile:hover, #Currencies-tile:hover, #Predictions-tile:hover{box-shadow: 0 1px 5px 1px #000000;}
+
+#FOREX-tile{
+	background: url('../images/forex.png') no-repeat;
+	background-position: center;
+}
+
+#Currencies-tile{
+	background: url('../images/currencies.png') no-repeat;
+	background-position: center;
+}
+
+#Predictions-tile{
+	background: url('../images/equity.png') no-repeat;
+	background-position: center;
+  }
+
+#FOREX-tile span, #Currencies-tile span, #Predictions-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align:center;
+	font-size: 14px;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .7;
+}
+ 	
 /***RESPONSIVE SCREEN SIZE***/
 /**large device**/
 @media(min-width: 1200px) {
@@ -91,6 +138,7 @@ body{
 			background: url('../images/desktop992.jpg') no-repeat;
 			height: 661px;
 		}
+
 	}
 
 /**small device**/
@@ -104,6 +152,10 @@ body{
 		background: url('../images/desktop768.jpg') no-repeat;
 		height: 512px;
 	}
+	#Predictions-tile{
+			margin: auto;
+  			width: 50%;
+		}
 }
 
 /**extra small device**/
@@ -118,6 +170,11 @@ body{
 		font-size: 5vw;
 	}	
 
+	.navbar-brand p{
+		font-size: 9.6;
+		margin-top:12px;
+	}
+
 	#collapsable-nav a{font-size: 1.2em;}
 
 	#collapsable-nav a span{
@@ -129,6 +186,26 @@ body{
 	.container .jumbotron{
 		margin-top: 30px;
 		padding: 0;
+	}
+
+	#FOREX-tile, #Currencies-tile, #Predictions-tile{
+		width: 360px;
+		margin:0 auto 15px;
+	}
+}
+
+/**Super Extra Devices**/
+@media(max-width: 479px){
+	/*header*/
+	.navbar-brand h1{
+		padding-top: 5px;
+		font-size: 6vw; 
+	}
+
+	/*images*/
+	#FOREX-tile, #Currencies-tile, #Predictions-tile{
+		width: 280px;
+		margin: 0 auto 15px;
 	}
 }
 
