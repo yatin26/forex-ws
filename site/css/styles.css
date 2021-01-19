@@ -61,12 +61,44 @@ body{
 
 #nav-list a span{font-size: 24px;}
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar{border: 1px solid SeaGreen;}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{border: 1px solid #474747;}
 
 .navbar-header button.navbar-toggle{
 	clear:both;
 	margin-top: -30px;
 	border: 1px solid #0C00EB;
+}
+
+/*FOOTER*/
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #474747;
+	border-top: 0;
+}
+
+.panel-footer div.row{margin-bottom: 35px;}
+
+#lp{color: #B2B5FB}
+
+.panel-footer a:hover, .panel-footer a:focus{background: SeaGreen;}}
+
+#prices{line-height: 1.5;}
+
+#prices > span{font-size: 1.3em;}
+
+#prices a{
+	color: #fff;
+	font-size: .9em;
+}
+
+#decleration{
+	width: 50%;
+	text-align: right;
+	margin-left: auto;
+	font-style: italic;
+	color: #FFF;
 }
 
 /*HOME*/
@@ -147,6 +179,13 @@ body{
 	#nav-list a span{font-size: 16px;}
 	.navbar-brand h1{font-size: 30px;}
 
+	/*footer*/
+	#decleration{
+	width: 100%;
+	text-align: left;
+	margin: 10px 0 0 0;
+	}
+
 	/*image*/
 	.container .jumbotron{
 		background: url('../images/desktop768.jpg') no-repeat;
@@ -155,7 +194,7 @@ body{
 	#Predictions-tile{
 			margin: auto;
   			width: 50%;
-		}
+		}	
 }
 
 /**extra small device**/
@@ -181,6 +220,19 @@ body{
 		font-size: 1em;
 		margin-right: 5px; 
 	}
+
+	/*footer*/
+	#decleration{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 0;
+	}
+
+	.panel-footer div.row{
+		margin-bottom: 0;
+		text-align:center; 
+	}
+
 
 	/*image*/
 	.container .jumbotron{
