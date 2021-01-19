@@ -80,7 +80,7 @@ body{
 
 .panel-footer div.row{margin-bottom: 35px;}
 
-#lp{color: #B2B5FB}
+#lp{color: #B2B5FB;}
 
 .panel-footer a:hover, .panel-footer a:focus{background: SeaGreen;}}
 
@@ -182,9 +182,16 @@ body{
 	/*footer*/
 	#decleration{
 	width: 100%;
-	text-align: left;
-	margin: 10px 0 0 0;
+	text-align: center;
+	margin-top: 20px;
 	}
+
+	#prices{
+		width: 100%;	
+		text-align: center;
+	}
+
+	.panel-footer div.row{text-align:center;}
 
 	/*image*/
 	.container .jumbotron{
