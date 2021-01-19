@@ -7,6 +7,7 @@ body{
 	font-family: "Times New Roman", Times, sans-serif;  
 }
 
+/*HEADER*/
 #header-nav{
 	background-color: #6C83D6;
 	border-radius: 0;
@@ -60,8 +61,21 @@ body{
 	border: 1px solid #0C00EB;
 }
 
+/*HOME*/
+.container .jumbotron{
+	box-shadow: 0 0 50px #474747;
+	border: 2px solid #474747;
+}
+
+/***RESPONSIVE SCREEN SIZE***/
 /**large device**/
-@media(min-width: 1200px) {}
+@media(min-width: 1200px) {
+	/*image*/
+	.container .jumbotron{
+		background: url('../images/desktop1200.jpg') no-repeat;
+		height:799px;
+		}
+}
 
 /**medium device**/
 @media(min-width: 992px) and (max-width: 1199px) {
@@ -72,7 +86,11 @@ body{
 				}
 		#nav-list a span{font-size: 20px;}
 
-		/**/
+		/*image*/
+		.container .jumbotron{
+			background: url('../images/desktop992.jpg') no-repeat;
+			height: 661px;
+		}
 	}
 
 /**small device**/
@@ -81,7 +99,11 @@ body{
 	#nav-list a span{font-size: 16px;}
 	.navbar-brand h1{font-size: 30px;}
 
-	/**/
+	/*image*/
+	.container .jumbotron{
+		background: url('../images/desktop768.jpg') no-repeat;
+		height: 512px;
+	}
 }
 
 /**extra small device**/
@@ -95,15 +117,19 @@ body{
 		padding-top: 10px; 
 		font-size: 5vw;
 	}	
-	
-	/**/
-}
 
-#collapsable-nav a{font-size: 1.2em;}
+	#collapsable-nav a{font-size: 1.2em;}
 
-#collapsable-nav a span{
-	font-size: 1em;
-	margin-right: 5px; 
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px; 
+	}
+
+	/*image*/
+	.container .jumbotron{
+		margin-top: 30px;
+		padding: 0;
+	}
 }
 
 #lst {
@@ -116,3 +142,4 @@ body{
 			border: 2px solid darkblue;
 			margin: 10px 50px 10px 50px;
 	}
+ 
