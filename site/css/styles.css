@@ -64,9 +64,9 @@ body{
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{border: 1px solid #474747;}
 
 .navbar-header button.navbar-toggle{
+	border: 1px solid #0C00EB;
 	clear:both;
 	margin-top: -30px;
-	border: 1px solid #0C00EB;
 }
 
 /*FOOTER*/
@@ -205,7 +205,7 @@ body{
 }
 
 /**extra small device**/
-@media(max-width: 767px) {
+@media(max-width: 767px) and (min-width: 478px) {
 	/*header*/
 	.navbar-brand{
 		padding-top:10px;
@@ -217,7 +217,7 @@ body{
 	}	
 
 	.navbar-brand p{
-		font-size: 9.6;
+		font-size: 3vw;
 		margin-top:12px;
 	}
 
@@ -253,12 +253,17 @@ body{
 	}
 }
 
-/**Super Extra Devices**/
+/**Super Extra Samll Devices**/
 @media(max-width: 479px){
 	/*header*/
 	.navbar-brand h1{
 		padding-top: 5px;
 		font-size: 6vw; 
+	}
+
+	.navbar-brand p{
+		margin-top: 5px;
+		font-size: 3vw;
 	}
 
 	/*images*/
