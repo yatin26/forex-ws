@@ -102,11 +102,6 @@ body{
 }
 
 /*HOME*/
-.container .jumbotron{
-	box-shadow: 0 0 50px #474747;
-	border: 2px solid #474747;
-	opacity: 0.8;
-}
 
 #FOREX-tile, #Currencies-tile, #Predictions-tile{
 	height: 250px;
@@ -160,13 +155,7 @@ color: #fff;
  	
 /***RESPONSIVE SCREEN SIZE***/
 /**large device**/
-@media(min-width: 1200px) {
-	/*image*/
-	.container .jumbotron{
-		background: url('../images/desktop1200.jpg') no-repeat;
-		height:799px;
-		}
-}
+@media(min-width: 1200px) {}
 
 /**medium device**/
 @media(min-width: 992px) and (max-width: 1199px) {
@@ -176,13 +165,6 @@ color: #fff;
 			width: 80px;
 				}
 		#nav-list a span{font-size: 20px;}
-
-		/*image*/
-		.container .jumbotron{
-			background: url('../images/desktop992.jpg') no-repeat;
-			height: 661px;
-		}
-
 	}
 
 /**small device**/
@@ -206,10 +188,6 @@ color: #fff;
 	.panel-footer div.row{text-align:center;}
 
 	/*image*/
-	.container .jumbotron{
-		background: url('../images/desktop768.jpg') no-repeat;
-		height: 512px;
-	}
 	#Predictions-tile{
 			margin: auto;
   			width: 50%;
@@ -254,11 +232,6 @@ color: #fff;
 
 
 	/*image*/
-	.container .jumbotron{
-		margin-top: 30px;
-		padding: 0;
-	}
-
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
 		width: 360px;
 		margin:0 auto 15px;
@@ -295,4 +268,3 @@ color: #fff;
 			border: 2px solid darkblue;
 			margin: 10px 50px 10px 50px;
 	}
- 

@@ -108,6 +108,15 @@ body{
 	padding-bottom: 15px;
 }
 
+#home-tiles a p{display: none;}
+#home-tiles a:hover p{
+display: block;
+background-color: #000;
+opacity: .7;
+font-size: 14px;
+color: #fff;
+text-decoration: none;}
+
 #Currencies-tile, #Predictions-tile{
 	height: 250px;
 	width: 100%;

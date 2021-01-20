@@ -102,13 +102,13 @@ body{
 }
 
 /*HOME*/
-.container .jumbotron{
-	box-shadow: 0 0 50px #474747;
-	border: 2px solid #474747;
-	opacity: 0.8;
+
+#last-para-currencies{
+	margin-bottom: 10px;
+	padding-bottom: 15px;
 }
 
-#FOREX-tile, #Currencies-tile, #Predictions-tile{
+#FOREX-tile, #Predictions-tile{
 	height: 250px;
 	width: 100%;
 	margin-bottom: 15px;
@@ -116,8 +116,6 @@ body{
 	border: 2px solid #474747;
 	overflow: hidden;
 }
-
-#FOREX-tile:hover, #Currencies-tile:hover, #Predictions-tile:hover{box-shadow: 0 1px 5px 1px #000000;}
 
 #home-tiles a p{display: none;}
 
@@ -130,13 +128,10 @@ color: #fff;
 }
 
 
+#FOREX-tile:hover, #Predictions-tile:hover{box-shadow: 0 1px 5px 1px #000000;}
+
 #FOREX-tile{
 	background: url('../images/forex.png') no-repeat;
-	background-position: center;
-}
-
-#Currencies-tile{
-	background: url('../images/currencies.png') no-repeat;
 	background-position: center;
 }
 
@@ -145,7 +140,7 @@ color: #fff;
 	background-position: center;
   }
 
-#FOREX-tile span, #Currencies-tile span, #Predictions-tile span{
+#FOREX-tile span, #Predictions-tile span{
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -161,10 +156,10 @@ color: #fff;
 /***RESPONSIVE SCREEN SIZE***/
 /**large device**/
 @media(min-width: 1200px) {
-	/*image*/
-	.container .jumbotron{
-		background: url('../images/desktop1200.jpg') no-repeat;
-		height:799px;
+	/*home*/
+	#FOREX-tile, #Predictions-tile{
+			width: 75%;
+			margin: auto;
 		}
 }
 
@@ -177,10 +172,11 @@ color: #fff;
 				}
 		#nav-list a span{font-size: 20px;}
 
-		/*image*/
-		.container .jumbotron{
-			background: url('../images/desktop992.jpg') no-repeat;
-			height: 661px;
+		/*home*/
+
+		#FOREX-tile, #Predictions-tile{
+			width: 75%;
+			margin: auto;
 		}
 
 	}
@@ -205,15 +201,11 @@ color: #fff;
 
 	.panel-footer div.row{text-align:center;}
 
-	/*image*/
-	.container .jumbotron{
-		background: url('../images/desktop768.jpg') no-repeat;
-		height: 512px;
-	}
-	#Predictions-tile{
-			margin: auto;
-  			width: 50%;
-		}	
+	/*home*/
+	#last-para-forex{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+}
 }
 
 /**extra small device**/
@@ -253,13 +245,14 @@ color: #fff;
 	}
 
 
-	/*image*/
-	.container .jumbotron{
-		margin-top: 30px;
-		padding: 0;
-	}
+	/*home*/
 
-	#FOREX-tile, #Currencies-tile, #Predictions-tile{
+	#last-para-forex{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+}
+
+	#FOREX-tile, #Predictions-tile{
 		width: 360px;
 		margin:0 auto 15px;
 	}
@@ -278,8 +271,14 @@ color: #fff;
 		font-size: 3vw;
 	}
 
-	/*images*/
-	#FOREX-tile, #Currencies-tile, #Predictions-tile{
+	/*home*/
+
+	#last-para-forex{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+}	
+
+	#FOREX-tile, #Predictions-tile{
 		width: 280px;
 		margin: 0 auto 15px;
 	}
