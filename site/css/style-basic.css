@@ -108,6 +108,10 @@ body{
 	padding-bottom: 15px;
 }
 
+#last-para-c-us{
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
 
 #FOREX-tile, #Currencies-tile, #Predictions-tile{
 	height: 250px;
@@ -199,6 +203,11 @@ color: #fff;
 		padding-bottom: 10px;
 	}
 
+	#last-para-c-us{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+
 	#Predictions-tile{
 			margin: auto;
   			width: 50%;
@@ -249,6 +258,11 @@ color: #fff;
 		padding-bottom: 10px;
 }
 
+#last-para-c-us{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+}
+
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
 		width: 360px;
 		margin:0 auto 15px;
@@ -271,6 +285,11 @@ color: #fff;
 	/*home*/
 
 	#last-para-basic{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+}
+
+	#last-para-c-us{
 		margin-bottom: 10px;
 		padding-bottom: 10px;
 }
