@@ -268,6 +268,7 @@ p.btn{text-align: center;
 
 	textarea{
 		height: 100px;
+		width: 90%;
 		margin: 6px 0px 16px 100px;
 	}
 
@@ -339,7 +340,7 @@ p.btn{text-align: center;
 	textarea{
 		height: 70px;
 		width: 120%;
-		margin: 6px auto 16px auto;}
+		margin: 6px auto 16px 20px;}
 
 	#last-para-basic{
 		margin-bottom: 10px;
@@ -349,7 +350,7 @@ p.btn{text-align: center;
 #last-para-c-us{
 		margin-bottom: 10px;
 		padding-bottom: 0px;
-		margin-left: 50px;
+		margin-left: 70px;
 		margin-right: auto;
 }
 
@@ -388,7 +389,7 @@ p.btn{text-align: center;
 
 	textarea{
 		width: 150%;
-		height: 50px;
+		height: 70px;
 		margin: 6px 0px 16px 0px;
 	}
 
