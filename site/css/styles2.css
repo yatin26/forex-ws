@@ -236,13 +236,15 @@ color: #fff;
 	#decleration{
 	width: 100%;
 	text-align: center;
-	padding-bottom: 0;
+	margin-top: 20px;
 	}
 
-	.panel-footer div.row{
-		margin-bottom: 0;
-		text-align:center; 
+	#prices{
+		width: 100%;	
+		text-align: center;
 	}
+
+	.panel-footer div.row{text-align:center;}
 
 
 	/*home*/
@@ -269,6 +271,18 @@ color: #fff;
 	.navbar-brand p{
 		margin-top: 5px;
 		font-size: 3vw;
+	}
+
+	/*footer*/
+	#decleration{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 0;
+	}
+
+	.panel-footer div.row{
+		margin-bottom: 0;
+		text-align:center; 
 	}
 
 	/*home*/

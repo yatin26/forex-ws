@@ -260,8 +260,12 @@ color: #fff;
 	}
 
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
-		width: 50%;
+		width: 80%;
 		margin:0 auto 15px;
+	}
+
+	#FOREX-tile{
+		margin-top: 100px;
 	}
 }
 
@@ -284,7 +288,7 @@ color: #fff;
 	text-align: center;
 	padding-bottom: 0;
 	}
-	
+
 	.panel-footer div.row{
 		margin-bottom: 0;
 		text-align:center; 
@@ -292,8 +296,12 @@ color: #fff;
 
 	/*images*/
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
-		width: 50%;
+		width: 80%;
 		margin: 0 auto 15px;
+	}
+
+	#FOREX-tile{
+		margin-top: 100px;
 	}
 
 	.container .jumbotron{
