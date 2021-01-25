@@ -160,7 +160,7 @@ input[type=submit]:hover {
 
 #last-para-c-us{
 	text-align: center;
-	margin-left: 10px;
+	margin-left: 80px;
 	margin-right: auto;
 	margin-bottom: 20px;
 	padding-bottom: 0px;
@@ -279,7 +279,7 @@ p.btn{text-align: center;
 	#last-para-c-us{
 		margin-bottom: 10px;
 		margin-right: auto;
-		margin-left: 10px; 
+		margin-left: 80px; 
 		padding-bottom: 0px;
 	}
 
@@ -349,8 +349,8 @@ p.btn{text-align: center;
 #last-para-c-us{
 		margin-bottom: 10px;
 		padding-bottom: 0px;
+		margin-left: 50px;
 		margin-right: auto;
-		margin-left: 10px;
 }
 
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
@@ -387,9 +387,9 @@ p.btn{text-align: center;
 	}
 
 	textarea{
-		width: 100%;
+		width: 150%;
 		height: 50px;
-		margin: 6px 0px 16px 70px;
+		margin: 6px 0px 16px 0px;
 	}
 
 	#last-para-basic{
@@ -399,8 +399,7 @@ p.btn{text-align: center;
 
 	#last-para-c-us{
 		text-align: center;
-
-		margin: 0px 10px 10px 50px;
+		margin: 0px 10px 10px 80px;
 		padding-bottom: 0px;
 }
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
