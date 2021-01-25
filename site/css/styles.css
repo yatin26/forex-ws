@@ -278,10 +278,22 @@ color: #fff;
 		font-size: 3vw;
 	}
 
+	/*footer*/
+	#decleration{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 0;
+	}
+
 	/*images*/
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
 		width: 280px;
 		margin: 0 auto 15px;
+	}
+
+	.container .jumbotron{
+		margin-top: 30px;
+		padding: 0;
 	}
 }
 
