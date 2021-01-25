@@ -320,12 +320,11 @@ color: #fff;
 
 	/*home*/
 	#form{
-	width: 50%;}
+	width: 50%;
+	}
 
 	#heading-c-us{
-		margin: 20px 0px 20px 0px;
-	
-	}
+		margin: 20px 0px 20px 0px;	}
 
 	textarea{
 		height: 70px;
@@ -362,7 +361,8 @@ color: #fff;
 
 	/*home*/
 	#form{
-		width: 50%;}
+		width: 50%;
+		margin-left: 50px;}
 
 	#heading-c-us{
 		margin: 20px 0px 20px 0px;
