@@ -254,16 +254,14 @@ color: #fff;
 	/*home*/
 
 	#form{
-	width: 100%;}
+	width: 80%;}
 
 	h2{
-		margin: 20px 0px 20px 0px;
-	
-	}
+		margin: 20px 0px 20px 0px;	}
 
 	textarea{
 		height: 100px;
-		margin: 6px 0px 16px 0px;
+		margin: 6px 0px 16px 100px;
 	}
 
 	#last-para-basic{
@@ -332,7 +330,7 @@ color: #fff;
 
 	textarea{
 		height: 70px;
-		margin: 6px 0px 16px 0px;}
+		margin: 6px 0px 16px 80px;}
 
 	#last-para-basic{
 		margin-bottom: 10px;
