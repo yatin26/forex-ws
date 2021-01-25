@@ -110,10 +110,27 @@ body{
 	margin: auto;
 }
 
-input[type=text], select, textarea {
+h2{
+	text-align: center;
+	margin: 20px auto 20px 70px;
+	}
+
+textarea{
+	text-align: center;
+	width: 75%;
+	height: 150px;
+	padding: auto;
+	margin: 6px 0px 6px 100px;
+	box-shadow: 0 0 10px #474747;
+  	border: 1px solid #474747;
+  	resize: vertical;
+}
+
+input[type=text] {
+  box-shadow: 0 0 10px #474747;
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #474747;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -231,6 +248,10 @@ color: #fff;
 	.panel-footer div.row{text-align:center;}
 
 	/*home*/
+	textarea{
+		height: 100px;
+	}
+
 	#last-para-basic{
 		margin-bottom: 10px;
 		padding-bottom: 10px;
@@ -287,6 +308,9 @@ color: #fff;
 
 
 	/*home*/
+
+	textarea{
+		height: 70px;}
 
 	#last-para-basic{
 		margin-bottom: 10px;
