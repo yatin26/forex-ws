@@ -113,6 +113,7 @@ body{
 h2{
 	text-align: center;
 	margin: 20px auto 20px 70px;
+	
 	}
 
 textarea{
@@ -248,8 +249,18 @@ color: #fff;
 	.panel-footer div.row{text-align:center;}
 
 	/*home*/
+
+	#form{
+	width: 100%;
+
+	h2{
+		margin: 20px 0px 20px 0px;
+	
+	}
+
 	textarea{
 		height: 100px;
+		margin: 6px 0px 6px 0px;
 	}
 
 	#last-para-basic{
@@ -308,9 +319,17 @@ color: #fff;
 
 
 	/*home*/
+	#form{
+	width: 50%;}
+
+	h2{
+		margin: 20px 0px 20px 0px;
+	
+	}
 
 	textarea{
-		height: 70px;}
+		height: 70px;
+		margin: 6px 0px 6px 0px;}
 
 	#last-para-basic{
 		margin-bottom: 10px;
@@ -342,8 +361,6 @@ color: #fff;
 	}
 
 	/*home*/
-
-
 
 	#last-para-basic{
 		margin-bottom: 10px;
