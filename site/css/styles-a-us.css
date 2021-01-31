@@ -103,71 +103,9 @@ body{
 
 /*HOME*/
 
-#form{
-	width: 50%;
-	text-align: center;
-	padding: auto;
-	margin: auto;
-}
-
-#heading-c-us{
-	text-align: center;
-	margin: 20px auto 20px 70px;
-	}
-
-#info{
-	text-align: center;
-	padding-left: 20px;
-}
-
-sup{
-	color: #ff4f4f;
-	
-}
-
-textarea{
-	text-align: center;
-	width: 75%;
-	height: 150px;
-	padding: auto;
-	margin: 6px 0px 16px 100px;
-	box-shadow: 0 0 10px #474747;
-  	border: 1px solid #474747;
-  	resize: vertical;
-}
-
-input[type=text], input[type=tel], input[type=email] {
-  box-shadow: 0 0 10px #474747;
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #474747;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-
-}
-
-button.btn1 {
-  background-color: #6C83D6;
-  color: black;
-  padding: 12px 20px;
-  margin-bottom: 10px;
-  border: none;
-  cursor: pointer;
-}
-
-
-button.btn1:hover {
-  background-color: #45a049;
-  color: white;
-}
-
-#last-para-c-us{
-	text-align: center;
-	margin-left: 80px;
-	margin-right: auto;
-	margin-bottom: 20px;
-	padding-bottom: 0px;
+#last-para-basic{
+	margin-bottom: 10px;
+	padding-bottom: 15px;
 }
 
 #FOREX-tile, #Currencies-tile, #Predictions-tile{
@@ -180,6 +118,8 @@ button.btn1:hover {
 }
 
 #FOREX-tile:hover, #Currencies-tile:hover, #Predictions-tile:hover{box-shadow: 0 1px 5px 1px #000000;}
+
+#home-tiles{margin: 0px;}
 
 #home-tiles a p{display: none;}
 
@@ -222,9 +162,6 @@ color: #fff;
 
 p.btn{text-align: center;}
 
-#email{margin-left: 10px; 
-}
- 	
 /***RESPONSIVE SCREEN SIZE***/
 /**large device**/
 @media(min-width: 1200px) {}
@@ -237,10 +174,7 @@ p.btn{text-align: center;}
 			width: 80px;
 				}
 		#nav-list a span{font-size: 20px;}
-
-		/*home*/
-		textarea{height: 120px;}
-	}
+}
 
 /**small device**/
 @media(min-width: 768px) and (max-width: 991px) {
@@ -262,22 +196,11 @@ p.btn{text-align: center;}
 
 	.panel-footer div.row{text-align:center;}
 
-	/*home*/
+	/*HOME*/
 
-	#form{width: 80%;}
-
-	#heading-c-us{	margin: 20px 0px 20px 70px;	}
-
-	textarea{
-		height: 100px;
-		width: 90%;
-		margin: 6px 0px 16px 100px;
-	}
-
-	#last-para-c-us{
+	#last-para-basic{
 		margin-bottom: 10px;
-		margin-right: auto;
-		padding-bottom: 0px;
+		padding-bottom: 10px;
 	}
 
 	#Predictions-tile{
@@ -324,28 +247,12 @@ p.btn{text-align: center;}
 
 	.panel-footer div.row{text-align:center;}
 
-
 	/*home*/
-	#form{
-	width: 50%;
-	}
 
-	#info{font-size: 2.5vw;}
-
-	#heading-c-us{
-		margin: 20px 0px 20px 70px;	}
-
-	textarea{
-		height: 70px;
-		width: 120%;
-		margin: 6px auto 16px 20px;}
-
-#last-para-c-us{
+	#last-para-basic{
 		margin-bottom: 10px;
-		padding-bottom: 0px;
-		margin-left: 70px;
-		margin-right: auto;
-}
+		padding-bottom: 10px;
+	}
 
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
 		width: 360px;
@@ -367,32 +274,15 @@ p.btn{text-align: center;}
 	}
 
 	/*home*/
-	#form{
-		width: 50%;
-		margin-left: 50px;}
-
-	#heading-c-us{
-		margin: 20px 0px 20px 0px;
-	}
-
-	#info{font-size: 2.5vw;}
-
 	p.btn{
 		padding: 0;
 		text-align: center;
 	}
 
-	textarea{
-		width: 150%;
-		height: 70px;
-		margin: 6px 0px 16px 0px;
-	}
-
-	#last-para-c-us{
-		text-align: center;
-		margin: 0px 10px 10px 100px;
-		padding-bottom: 0px;
-}
+	#last-para-basic{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}	
 
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
 		width: 280px;
