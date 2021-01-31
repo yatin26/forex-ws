@@ -136,7 +136,7 @@ textarea{
   	resize: vertical;
 }
 
-input[type=text], input[type=email] {
+input[type=text], input[type=tel], input[type=email] {
   box-shadow: 0 0 10px #474747;
   width: 100%;
   padding: 12px;
@@ -271,8 +271,7 @@ p.btn{text-align: center;
 
 	/*home*/
 
-	#form{
-	width: 80%;}
+	#form{width: 80%;}
 
 	#heading-c-us{	margin: 20px 0px 20px 70px;	}
 
@@ -292,6 +291,8 @@ p.btn{text-align: center;
 		margin-right: auto;
 		padding-bottom: 0px;
 	}
+
+
 
 	#Predictions-tile{
 			margin: auto;
@@ -343,6 +344,8 @@ p.btn{text-align: center;
 	width: 50%;
 	}
 
+	#info{font-size: 2.5vw;}
+
 	#heading-c-us{
 		margin: 20px 0px 20px 70px;	}
 
@@ -390,6 +393,8 @@ p.btn{text-align: center;
 	#heading-c-us{
 		margin: 20px 0px 20px 0px;
 	}
+
+	#info{font-size: 2.5vw;}
 
 	p.btn{
 		padding: 0;
