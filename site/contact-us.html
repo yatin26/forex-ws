@@ -59,17 +59,21 @@
 		<div id="basicbody">
 			<h2 id="heading-c-us"><ins><b>Enter your details below</h2></b></ins>
 			<div class="c-us">
-		<div id="form">
-		<p class="btn"><label for="fname">First Name </label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.."></p>
-        <p class="btn"><label for="lname">Last Name </label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.."></p>
-        <p class="btn"><label for="phone">Mobile No. </label>
-        <input type="text" id="phone" name="phone" placeholder="Your mobile number.."></p>
-        <p class="btn" id="email"><label for="email">Email-id </label>
-        <input type="text" id="email" name="Email-id" placeholder="Your Email-id.." ></p>
-        <textarea id="subject" name="subject" placeholder="Describe your query.."></textarea>
-        <p id="last-para-c-us"><input type="submit" value="Submit"></p>
+			<form id="form" >
+				<p class="btn"><label for="fname">First Name <sup>*</sup> </label>
+		        <input type="text" id="fname" name="firstname" placeholder="Your name.." required></p>
+		        <p class="btn"><label for="lname">Last Name <sup>*</sup> </label>
+		        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required></p>
+		        <p class="btn"><label for="phone">Mobile No. <sup>*</sup> </label>
+		        <input type="text" id="phone" name="phone" placeholder="Your mobile number.." required></p>
+        		<p class="btn" id="email"><label for="email">Email-id <sup>*</sup> </label>
+		        <input type="email" id="email" name="Email-id" placeholder="Your Email-id.." required></p>
+		        <textarea id="subject" name="subject" placeholder="Describe your query.."></textarea>
+		        <p id="info"><sup>*</sup>&ensp; marks the required fields</p>
+		        <p id="last-para-c-us">
+		        	<button class="btn1" type="reset">Reset</button>
+		        	<button class="btn1" type="submit" >Submit</button>
+		        </p>
       </div>
   		</div>
 	</div>

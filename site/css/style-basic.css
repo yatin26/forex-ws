@@ -113,8 +113,17 @@ body{
 #heading-c-us{
 	text-align: center;
 	margin: 20px auto 20px 70px;
-	
 	}
+
+#info{
+	text-align: center;
+	padding-left: 20px;
+}
+
+sup{
+	color: #ff4f4f;
+	
+}
 
 textarea{
 	text-align: center;
@@ -127,7 +136,7 @@ textarea{
   	resize: vertical;
 }
 
-input[type=text] {
+input[type=text], input[type=email] {
   box-shadow: 0 0 10px #474747;
   width: 100%;
   padding: 12px;
@@ -138,16 +147,17 @@ input[type=text] {
 
 }
 
-input[type=submit] {
+button.btn1 {
   background-color: #6C83D6;
   color: black;
   padding: 12px 20px;
+  margin-bottom: 10px;
   border: none;
   cursor: pointer;
 }
 
 
-input[type=submit]:hover {
+button.btn1:hover {
   background-color: #45a049;
   color: white;
 }
@@ -280,7 +290,6 @@ p.btn{text-align: center;
 	#last-para-c-us{
 		margin-bottom: 10px;
 		margin-right: auto;
-		margin-left: 80px; 
 		padding-bottom: 0px;
 	}
 
@@ -403,6 +412,7 @@ p.btn{text-align: center;
 		margin: 0px 10px 10px 100px;
 		padding-bottom: 0px;
 }
+
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
 		width: 280px;
 		margin: 0 auto 15px;
