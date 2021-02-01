@@ -58,8 +58,42 @@
 	<div id="main-box" class="container">
 
 		<div id="basicbody">
-			<p>hi hello</p>
-			<p id="last-para-basic">Last para of basic</p>
+			<p class="para">In the following model, we use classifiers to predict from the data whether the prices of different currency pairs will increase or decrease, by assigning it a label 1/0, to confirm the model using backtesting we allot equity and carry on trades from the data when the label is 1 and reject when the label reads 0.</p>
+
+			<p class="para">The different currencies used in this model to form subsequent currency-pairs are:
+				<ul>
+					<b><li>INR</b>&nbsp;-&nbsp;Indian Rupee</li>
+					<b><li>USD</b>&nbsp;-&nbsp;United States Dollar</li>
+					<b><li>GBP</b>&nbsp;-&nbsp;British Pound Sterling</li>
+					<b><li>EUR</b>&nbsp;-&nbsp;Euro</li></ul></p>
+			 
+			<b><p class="head">EXTRACTING THE DATA</p></b>
+
+			<p class="para">The data for creating the model was extracting from a Swiss bank called Dukascopy, it is a bank which deals with forex spot trading and provides services, it also has an extensive day to day dataset of exchange prices of all major currencies. The data of the currencies traded was from the time period of 1st Jan 2010 to 31st December 2019. Furthermore, the data was downloaded in a .csv format, easily accessible from MS Excel.</p>
+
+			<b><p class="head">UNDERSTANDING THE DATA</p></b>
+
+			<p class="para">Now, after having extracted the data we plotted the price of the Rupee to a single unit of the Dollar on a graph to just get a visual representation and subsequently a better understanding, Using matplotlib in python 3.7 in jupyter notebook(IDE). We plotted the everyday closing price of the currency pair.</p>
+
+
+			<b><p class="head">MANIPULATING AND ADDING ROWS</p></b>
+
+			<p class="para">After rudimentary plotting, we create another column parameter ‘RETURN’ which is simply the price difference between two consecutive days. We create another variable return range which is the maximum return subtracted from the minimum return.</p>
+
+
+			<b><p class="head">SHAPING AND TRAINING THE DATA</p></b>
+
+			<p class="para">We create another column ‘LABEL’ which is simply, the value of return, if return is +ve then label is 1 else 0. We train 95% of the data and test 5% in the model.</p>
+
+
+			<b><p class="head">GRADIENT BOOST CLASSIFIER</p></b>
+
+			<p class="para">They are various ML algorithms combined together, which are weak in an augmented manner to create a strong predictive model. Features here are the inputs for the ML algorithm which are used to calculate the output.</p>
+
+ 
+			<b><p class="head">PROFIT FUNCTION </p></b>
+
+			<p id="last-para-basic" class="para">The profit function is created using a pertinent strategy in finance called backtesting. We first create new parameters such as ‘pred’, ‘won’ and ‘return’, where we link the data from the column ‘label’ to our predicted model’s ‘label’. The won parameter will be true only if both the ‘pred’ and ‘label’ parameters were the same.</p>
 		</div>
 		
 		<div id="home-tiles" class="row">		

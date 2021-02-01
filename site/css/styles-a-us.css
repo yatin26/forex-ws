@@ -1,4 +1,4 @@
-body{
+	body{
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
@@ -102,6 +102,23 @@ body{
 }
 
 /*HOME*/
+
+.head{
+	margin-top: 10px;
+	padding-top: 10px;
+	font-size: 130%;
+	text-shadow: 1px #474747;
+	font-family: "Arial Rounded MT Bold", sans-serif;	
+	text-decoration: underline dotted blue;
+
+}
+
+.para{
+	
+	text-align: justify
+	text-justify:inter-word;
+
+}
 
 #last-para-basic{
 	margin-bottom: 10px;
