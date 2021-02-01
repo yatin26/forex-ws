@@ -103,6 +103,11 @@ body{
 
 /*HOME*/
 
+#aboutforex p{
+	text-align: justify;
+	text-justify: inter-word;
+}
+
 #last-para-forex{
 	margin-bottom: 10px;
 	padding-bottom: 15px;
