@@ -1,4 +1,4 @@
-	body{
+body{
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
@@ -116,8 +116,11 @@
 .para{
 	text-align: justify
 	text-justify:inter-word;
-
 }
+
+#list{list-style: none;}
+
+#list li::before{content: "\21AA";}
 
 #last-para-basic{
 	font-size:95%;

@@ -113,7 +113,12 @@ body{
 	padding-bottom: 15px;
 }
 
+#flist{list-style-type: square;}
+
+#slist{list-style-type: circle;}
+
 #home-tiles a p{display: none;}
+
 #home-tiles a:hover p{
 display: block;
 background-color: #000;
