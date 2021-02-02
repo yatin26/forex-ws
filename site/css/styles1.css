@@ -113,9 +113,9 @@ body{
 	padding-bottom: 15px;
 }
 
-#flist{list-style-type: square;}
+#flist{list-style: lower-roman inside;}
 
-#slist{list-style-type: circle;}
+#slist{list-style: circle inside;}
 
 #home-tiles a p{display: none;}
 
