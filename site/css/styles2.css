@@ -103,6 +103,8 @@ body{
 
 /*HOME*/
 
+
+
 #last-para-currencies{
 	margin-bottom: 10px;
 	padding-bottom: 15px;
@@ -126,7 +128,6 @@ opacity: .7;
 font-size: 14px;
 color: #fff;
 }
-
 
 #FOREX-tile:hover, #Predictions-tile:hover{box-shadow: 0 1px 5px 1px #000000;}
 
