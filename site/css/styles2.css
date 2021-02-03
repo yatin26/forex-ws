@@ -103,14 +103,26 @@ body{
 
 /*HOME*/
 
+#p-a:hover{
+		text-decoration: none;
+		color: blue;
+	}
+
+#p-a{color:red;}
+
 #c-list li{
+	list-style-type: lower-roman;
+	padding-bottom: 5px;
+}
+
+#cp-list li{
 	list-style-type: lower-roman;
 	padding-bottom: 5px;
 }
 
 #ac-list{padding-top: -5px;}
 
-#last-para-currencies{
+#cp-list{
 	margin-bottom: 10px;
 	padding-bottom: 15px;
 }
@@ -208,7 +220,7 @@ color: #fff;
 	.panel-footer div.row{text-align:center;}
 
 	/*home*/
-	#last-para-currencies{
+	#cp-list{
 		margin-bottom: 10px;
 		padding-bottom: 10px;
 }
@@ -255,7 +267,7 @@ color: #fff;
 
 	/*home*/
 
-	#last-para-currencies{
+	#cp-list{
 		margin-bottom: 10px;
 		padding-bottom: 10px;
 }
@@ -293,7 +305,7 @@ color: #fff;
 
 	/*home*/
 
-	#last-para-currencies{
+	#cp-list{
 		margin-bottom: 10px;
 		padding-bottom: 10px;
 }	
