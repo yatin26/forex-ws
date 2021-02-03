@@ -102,7 +102,9 @@ body{
 }
 
 /*HOME*/
-#FOREX-tile, #Predictions-tile{
+
+
+#FOREX-tile, #Currencies-tile, #Predictions-tile{
 	height: 250px;
 	width: 100%;
 	margin-bottom: 15px;
@@ -110,6 +112,8 @@ body{
 	border: 2px solid #474747;
 	overflow: hidden;
 }
+
+#FOREX-tile:hover, #Currencies-tile:hover, #Predictions-tile:hover{box-shadow: 0 1px 5px 1px #000000;}
 
 #home-tiles a p{display: none;}
 
@@ -121,10 +125,14 @@ font-size: 14px;
 color: #fff;
 }
 
-#FOREX-tile:hover, #Predictions-tile:hover{box-shadow: 0 1px 5px 1px #000000;}
 
 #FOREX-tile{
 	background: url('../images/forex.png') no-repeat;
+	background-position: center;
+}
+
+#Currencies-tile{
+	background: url('../images/currencies.png') no-repeat;
 	background-position: center;
 }
 
@@ -133,7 +141,7 @@ color: #fff;
 	background-position: center;
   }
 
-#FOREX-tile span, #Predictions-tile span{
+#FOREX-tile span, #Currencies-tile span, #Predictions-tile span{
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -150,10 +158,6 @@ color: #fff;
 /**large device**/
 @media(min-width: 1200px) {
 	/*home*/
-	#FOREX-tile, #Predictions-tile{
-			width: 75%;
-			margin: auto;
-		}
 }
 
 /**medium device**/
@@ -166,13 +170,7 @@ color: #fff;
 		#nav-list a span{font-size: 20px;}
 
 		/*home*/
-
-		#FOREX-tile, #Predictions-tile{
-			width: 75%;
-			margin: auto;
-		}
-
-	}
+}
 
 /**small device**/
 @media(min-width: 768px) and (max-width: 991px) {
@@ -194,11 +192,11 @@ color: #fff;
 
 	.panel-footer div.row{text-align:center;}
 
-	/*home*/
-	#last-para-currencies{
-		margin-bottom: 10px;
-		padding-bottom: 10px;
-}
+	/*image*/
+	#Predictions-tile{
+			margin: auto;
+  			width: 50%;
+		}	
 }
 
 /**extra small device**/
@@ -229,23 +227,24 @@ color: #fff;
 	#decleration{
 	width: 100%;
 	text-align: center;
-	margin-top: 20px;
+	padding-bottom: 0;
 	}
 
-	#prices{
-		width: 100%;	
-		text-align: center;
+	.panel-footer div.row{
+		margin-bottom: 0;
+		text-align:center; 
 	}
 
-	.panel-footer div.row{text-align:center;}
 
+	/*image*/
 
-	/*home*/
-
-
-	#FOREX-tile, #Predictions-tile{
-		width: 360px;
+	#FOREX-tile, #Currencies-tile, #Predictions-tile{
+		width: 80%;
 		margin:0 auto 15px;
+	}
+
+	#FOREX-tile{
+		margin-top: 100px;
 	}
 }
 
@@ -274,11 +273,14 @@ color: #fff;
 		text-align:center; 
 	}
 
-	/*home*/
-
-	#FOREX-tile, #Predictions-tile{
-		width: 280px;
+	/*images*/
+	#FOREX-tile, #Currencies-tile, #Predictions-tile{
+		width: 80%;
 		margin: 0 auto 15px;
+	}
+
+	#FOREX-tile{
+		margin-top: 100px;
 	}
 }
 
@@ -292,4 +294,3 @@ color: #fff;
 			border: 2px solid darkblue;
 			margin: 10px 50px 10px 50px;
 	}
- 
