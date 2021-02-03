@@ -102,19 +102,6 @@ body{
 }
 
 /*HOME*/
-
-#c-list li{
-	list-style-type: lower-roman;
-	padding-bottom: 5px;
-}
-
-#ac-list{padding-top: -5px;}
-
-#last-para-currencies{
-	margin-bottom: 10px;
-	padding-bottom: 15px;
-}
-
 #FOREX-tile, #Predictions-tile{
 	height: 250px;
 	width: 100%;
@@ -255,10 +242,6 @@ color: #fff;
 
 	/*home*/
 
-	#last-para-currencies{
-		margin-bottom: 10px;
-		padding-bottom: 10px;
-}
 
 	#FOREX-tile, #Predictions-tile{
 		width: 360px;
@@ -292,11 +275,6 @@ color: #fff;
 	}
 
 	/*home*/
-
-	#last-para-currencies{
-		margin-bottom: 10px;
-		padding-bottom: 10px;
-}	
 
 	#FOREX-tile, #Predictions-tile{
 		width: 280px;
