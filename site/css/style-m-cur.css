@@ -103,6 +103,11 @@ body{
 
 /*HOME*/
 
+table, th, td{
+	border:1.5px black solid;
+	border-collapse: collapse;
+	text-align: center;
+}
 
 #FOREX-tile, #Currencies-tile, #Predictions-tile{
 	height: 250px;
@@ -273,7 +278,7 @@ color: #fff;
 		text-align:center; 
 	}
 
-	/*images*/
+	/*home*/
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
 		width: 80%;
 		margin: 0 auto 15px;
