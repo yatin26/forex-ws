@@ -243,6 +243,12 @@ color: #fff;
 
 	/*image*/
 
+	table{
+		width: 90%;
+		margin-left: 0;
+		margin-right: 0;		
+	}
+
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
 		width: 80%;
 		margin:0 auto 15px;
@@ -279,6 +285,13 @@ color: #fff;
 	}
 
 	/*home*/
+
+	table{
+		width: 90%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
 		width: 80%;
 		margin: 0 auto 15px;
