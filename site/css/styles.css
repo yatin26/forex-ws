@@ -163,7 +163,7 @@ color: #fff;
 @media(min-width: 1200px) {
 	/*image*/
 	.container .jumbotron{
-		background: url('../images/desktop1200.jpg') no-repeat;
+		background: url('../images/desktop1200.gif') no-repeat;
 		height:799px;
 		}
 }
@@ -179,7 +179,7 @@ color: #fff;
 
 		/*image*/
 		.container .jumbotron{
-			background: url('../images/desktop992.jpg') no-repeat;
+			background: url('../images/desktop992.gif') no-repeat;
 			height: 661px;
 		}
 
@@ -207,7 +207,7 @@ color: #fff;
 
 	/*image*/
 	.container .jumbotron{
-		background: url('../images/desktop768.jpg') no-repeat;
+		background: url('../images/desktop768.gif') no-repeat;
 		height: 512px;
 	}
 	#Predictions-tile{
