@@ -103,33 +103,9 @@ body{
 
 /*HOME*/
 
-#last-para-basic{
-	font-size:95%;
+#last-para-predict{
 	margin-bottom: 10px;
 	padding-bottom: 15px;
-}
-
-table, th, td{
-	border:1.5px black solid;
-	border-collapse: collapse;
-	text-align: center;
-}
-
-td a:link{
-	text-decoration: none;
-	color:blue;
-}
-td a:visited{
-	text-decoration: none;
-	color:blue;
-}
-td a:hover{
-	text-decoration: none;
-	color:red;
-}
-td a:active{
-	text-decoration: none;
-	color:blue;
 }
 
 #FOREX-tile, #Currencies-tile, #Predictions-tile{
@@ -225,6 +201,11 @@ color: #fff;
 			margin: auto;
   			width: 50%;
 		}	
+
+	#last-para-predict{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+}
 }
 
 /**extra small device**/
@@ -266,10 +247,9 @@ color: #fff;
 
 	/*image*/
 
-	table{
-		width: 90%;
-		margin-left: 0;
-		margin-right: 0;		
+	#last-para-predict{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
 	}
 
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
@@ -309,17 +289,10 @@ color: #fff;
 
 	/*home*/
 
-	table{
-		width: 90%;
-		margin-left: 0;
-		margin-right: 0;
-	}
-
-	tr, td{
-		font-size: 3vw;
-	}
-
-
+	#last-para-predict{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+}	
 
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
 		width: 80%;
