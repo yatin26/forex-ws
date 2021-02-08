@@ -103,6 +103,8 @@ body{
 
 /*HOME*/
 
+#basicbody p{text-align: justify;}
+
 #last-para-predict{
 	margin-bottom: 10px;
 	padding-bottom: 15px;
