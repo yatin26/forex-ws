@@ -103,6 +103,12 @@ body{
 
 /*HOME*/
 
+#last-para-basic{
+	font-size:95%;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+
 table, th, td{
 	border:1.5px black solid;
 	border-collapse: collapse;
@@ -291,6 +297,12 @@ color: #fff;
 		margin-left: 0;
 		margin-right: 0;
 	}
+
+	tr, td{
+		font-size: 3vw;
+	}
+
+
 
 	#FOREX-tile, #Currencies-tile, #Predictions-tile{
 		width: 80%;
