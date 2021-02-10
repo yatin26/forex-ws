@@ -3,9 +3,37 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/scripts.js"></script>
+
 	<title>
 		The Forex Factory- A Great Forex Prediction Web-Site
 	</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function () {
+    $("#type").change(function () {
+        var val = $(this).val();
+        if (val == "item1") {
+            $("#size").html("<option value='' selected disabled>--select your currency--</option><option value='test'>INR</option><option value='test2'>GBP</option>");
+        } else if (val == "item2") {
+            $("#size").html("<option value='' selected disabled>--select your currency--</option><option value='test'>INR</option>");
+        } else if (val == "item3") {
+            $("#size").html("<option value='' selected disabled>--select your currency--</option><option value='test'>INR</option>");
+        } else if (val == "item4") {
+        	$("#size").html("<option value='' selected disabled>--select your currency--</option><option value='test'>INR</option><option value='test2'>USD</option>");
+        } else if (val == "item0") {
+            $("#size").html("<option value=''>--select your currency--</option>");
+        }
+    });
+});
+	</script>
+
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles3.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -58,8 +86,28 @@
 	<div id="main-box" class="container">
 
 		<div id="predictbody">
-			<p>hi hello</p>
-			<p id="last-para-predict">Last para of prediction</p>
+			<p>Select the currency pair in which you wish to predct equity</p>
+			<form id="form">
+
+				<div><label for="cbuy">Enter the currency you want to buy</label></div>
+				<div><select id="type">
+   						<option value="" selected disabled>--Select a Currency--</option>
+    					<option value="item1">USD</option>
+    					<option value="item2">GBP</option>
+    					<option value="item3">EUR</option>
+    					<option value="item4">HKD</option>
+					</select>
+				</div>
+
+				<div><label for="csell">Enter the currency you want to invest</label></div>
+				<div id="last-para-predict">
+					<select id="size">
+				    	<option value="">-- select your currency -- </option>
+					</select>
+				</div>
+
+			</form>
+			
 		</div>
 
 		<div id="home-tiles" class="row">			
@@ -105,8 +153,5 @@
 	
 	
 
-	<script src="js/jquery-3.5.1.min.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/scripts.js"></script>
 </body>
 </html>
