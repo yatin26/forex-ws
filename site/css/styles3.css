@@ -130,7 +130,7 @@ body{
 }
 
 .formsel select{
-	border: 1px solid transparent;
+	border: 1px solid black;
 	cursor: pointer;
 	background-color: #A1B2ED;
 }
