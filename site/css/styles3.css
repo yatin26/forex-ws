@@ -113,6 +113,7 @@ body{
 }
 
 #abform{
+	text-align: center;
 	font-size: 140%; 
 	margin-bottom: 20px; 
 	padding-bottom: 10px;
