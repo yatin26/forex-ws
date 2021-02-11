@@ -85,12 +85,12 @@
 	</header>
 	<div id="main-box" class="container">
 
-		<div id="predictbody">
-			<p>Select the currency pair in which you wish to predct equity</p>
+		<span id="predictbody">
+			<p id="abform"><ins><b>Select the currency pair in which you wish to predct equity</p></b></ins>
 			<form id="form">
 
-				<div><label for="cbuy">Enter the currency you want to buy</label></div>
-				<div><select id="type">
+				<div class="forminfo"><label for="cbuy">Enter the currency you want to buy:</label></div>
+				<div class="formsel"><select id="type">
    						<option value="" selected disabled>--Select a Currency--</option>
     					<option value="item1">USD</option>
     					<option value="item2">GBP</option>
@@ -99,8 +99,8 @@
 					</select>
 				</div>
 
-				<div><label for="csell">Enter the currency you want to invest</label></div>
-				<div id="last-para-predict">
+				<div class="forminfo"><label for="csell">Enter the currency you want to invest:</label></div>
+				<div id="last-para-predict" class="formsel">
 					<select id="size">
 				    	<option value="">-- select your currency -- </option>
 					</select>
