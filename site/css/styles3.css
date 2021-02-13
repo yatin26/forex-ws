@@ -103,6 +103,18 @@ body{
 
 /*HOME*/
 
+#confirmcp a{ border: 1px solid black; padding: 2px; margin-bottom: 5px; margin-top: 2px;}
+
+#txta:link{	background-color: blue;	text-decoration: none; color:white;}
+#txta:visited{ background-color: blue; text-decoration: none; color:white;}
+#txta:hover{ background-color: red; text-decoration: none; color:white;}
+#txta:active{ background-color: blue; text-decoration: none; color:white;}
+
+#txtb:link{ background-color: red; text-decoration: none; color:white; }
+#txtb:visited{ background-color: red; text-decoration: none; color:white; }
+#txtb:hover{ background-color: blue; text-decoration: none; color:white; }
+#txtb:active{ background-color: red; text-decoration: none; color:white; }
+
 #predictbody{
 	display: block;
 	margin: 10px auto 20px;
@@ -113,10 +125,21 @@ body{
 }
 
 #abform{
-	text-align: center;
 	font-size: 140%; 
 	margin-bottom: 20px; 
 	padding-bottom: 10px;
+}
+
+#aqform{font-size: 130%;}
+
+#confirmcp{
+	margin-left: 10px;
+	font-size: 110%;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	text-align: center; 
+	justify-content: center;
+	line-height: 250%;
 }
 
 #form{
@@ -134,6 +157,14 @@ body{
 	border: 1px solid black;
 	cursor: pointer;
 	background-color: #A1B2ED;
+	width: 50%;
+}
+
+#btn22{
+	margin-bottom: 20px;
+	background-color: #A1B2ED;
+	border: 1px solid black;
+	width: 50%;
 }
 
 #last-para-predict{
@@ -285,6 +316,10 @@ text-decoration: none;}
 
 	#abform{font-size: 3.5vw;}
 
+	#aqform{font-size: 3.5vw;}
+
+	#confirmcp{font-size: 3vw;}
+
 	#last-para-predict{
 		margin-bottom: 10px;
 		padding-bottom: 10px;
@@ -326,6 +361,10 @@ text-decoration: none;}
 	#predictbody{width: 90%;}
 
 	#abform{font-size: 3.5vw;}
+
+	#aqform{font-size: 3.5vw;}
+
+	#confirmcp{font-size: 3vw;}
 
 	#last-para-predict{
 		margin-bottom: 10px;

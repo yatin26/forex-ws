@@ -12,26 +12,6 @@
 		The Forex Factory- A Great Forex Prediction Web-Site
 	</title>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-	<script type="text/javascript">
-	$(document).ready(function () {
-    $("#type").change(function () {
-        var val = $(this).val();
-        if (val == "USD") {
-            $("#size").html("<option value='' selected disabled>--select your currency--</option><option id= 'INR' value='INR'>INR</option><option id='GBP' value='GBP'>GBP</option>");
-        } else if (val == "GBP") {
-            $("#size").html("<option value='' selected disabled>--select your currency--</option><option id='INR' value='INR'>INR</option>");
-        } else if (val == "EUR") {
-            $("#size").html("<option value='' selected disabled>--select your currency--</option><option id='INR' value='INR'>INR</option>");
-        } else if (val == "HKD") {
-        	$("#size").html("<option value='' selected disabled>--select your currency--</option><option id='INR' value='INR'>INR</option><option id='USD' value='USD'>USD</option>");
-        } else if (val == "item0") {
-            $("#size").html("<option value=''>--select your currency--</option>");
-        }
-    });
-});
-	</script>
 
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -83,33 +63,10 @@
 			</div>
 		</nav>
 	</header>
-	<div id="main-box" class="container">
-		<p id="abform" style="text-align: center;justify-content: center;"><ins><b>Select the currency pair for which you wish to predct equity</p></b></ins>
-		<div id="predictbody">
+<div id="main-box" class="container">
+		<p id="aqform" style="text-align: center; justify-content: center;">The currency pair you have selected is: <ins><b><span id="result1"></span>/<span id ="result2"></span></b></p></ins>
 
-			<form id="form" onsubmit="return myalert()" action="confirm.html">
-
-				<div class="forminfo"><label for="cbuy">Enter the currency you want to buy:</label></div>
-				<div class="formsel"><select id="type"  required oninvalid="this.setCustomValidity('Please select the currency you want to buy')" oninput="this.setCustomValidity('')">
-   						<option value="" selected disabled>--Select a Currency--</option>
-    					<option value="USD">USD</option>
-    					<option value="GBP">GBP</option>
-    					<option value="EUR">EUR</option>
-    					<option value="HKD">HKD</option>
-					</select>
-				</div>
-
-				<div class="forminfo"><label for="csell">Enter the currency you want to invest:</label></div>
-				<div id="last-para-predict" class="formsel">
-					<select id="size" required oninvalid="this.setCustomValidity('Please select the currency you want to invest')" oninput="this.setCustomValidity('')">
-				    	<option value="">-- select your currency -- </option>
-					</select>
-				</div>
-				<div>
-					<button id="btn22" type="submit">Confirm!</button>
-				</div>
-			</form>
-		</div>
+		<p id="confirmcp">If you wish to continue, <a id="txta">Click here</a> or if you wish to change the currency pair, <a id="txtb" href="prediction.html">Click Here</a> </p>
 
 		<div id="home-tiles" class="row">			
 			<div class="col-md-6 col-sm-6 col-xs-12">
@@ -153,18 +110,14 @@
 </footer>
 	
 <script type="text/javascript">
-	function myalert() {
-		var lefts = document.getElementById("type");
-		var left = lefts[lefts.selectedIndex].value;
-		var rights = document.getElementById("size");
-		var right = rights[rights.selectedIndex].value;
-
-		
-
-		localStorage.setItem("ltval",left);
-		localStorage.setItem("rtval",right);
-	}
-</script>
+	document.getElementById("result1").innerHTML=localStorage.getItem("ltval");
+	document.getElementById("result2").innerHTML=localStorage.getItem("rtval");
+	var rtval = localStorage.getItem("rtval");
+	var ltval = localStorage.getItem("ltval");
+	var txt = ltval+rtval+".html";
+	var av = document.getElementById("txta");
+	av.href=txt;
+</script>	
 
 </body>
 </html>
