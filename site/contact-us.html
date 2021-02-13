@@ -63,16 +63,16 @@
 			<div class="c-us">
 			<form id="form" onsubmit="return validation()" >
 				<div class="btn"><label for="fname">First Name:&nbsp;<sup>*</sup></label>
-		        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+		        <input type="text" id="fname" name="firstname" placeholder="Your name.." required oninvalid="this.setCustomValidity('Please enter your first name')" oninput="this.setCustomValidity('')">
 		    	</div>
 		        <div class="btn"><label for="lname">Last Name:&nbsp;<sup>*</sup></label>
-		        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+		        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required oninvalid="this.setCustomValidity('Please enter your last name')" oninput="this.setCustomValidity('')">
 		    	</div>
 		        <div class="btn"><label for="phone">Mobile No.:&nbsp;<sup>*</sup></label>
-		        <input type="tel" id="phone" name="phone" placeholder="Your mobile number.." required>
+		        <input type="tel" id="phone" name="phone" placeholder="Your mobile number.." required oninvalid="this.setCustomValidity('Please enter your mobile number')" oninput="this.setCustomValidity('')">
 		    	</div>
         		<div class="btn" id="email"><label for="email">Email-id:&nbsp;<sup>*</sup></label>
-		        <input type="email" id="email" name="Email-id" placeholder="Your Email-id.." required>
+		        <input type="email" id="email" name="Email-id" placeholder="Your Email-id.." required oninvalid="this.setCustomValidity('Please enter your email ID')" oninput="this.setCustomValidity('')">
 		    	</div>
 		        <textarea id="subject" name="subject" placeholder="Describe your query.."></textarea>
 		        <div id="info"><sup>*</sup>&nbsp; marks the fields that are to be filled mandatory</div>
