@@ -103,7 +103,19 @@ body{
 
 /*HOME*/
 
+#predict-another{
+	text-align: center; 
+	justify-content: center; 
+	margin: 5px auto 15px;
+	align-items: center;
+}
 
+#lst-txt{font-size: 110%;}
+
+#lst-txta:link{ text-decoration: none; color:blue;}
+#lst-txta:visited{ text-decoration: none; color:blue;}
+#lst-txta:hover{ text-decoration: none; color:red;}
+#lst-txta:active{ text-decoration: none; color:blue;}
 
 /***RESPONSIVE SCREEN SIZE***/
 /**large device**/
