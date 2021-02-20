@@ -19,13 +19,13 @@
     $("#type").change(function () {
         var val = $(this).val();
         if (val == "USD") {
-            $("#size").html("<option value='' selected disabled>--select your currency--</option><option id= 'INR' value='INR'>INR</option><option id='GBP' value='GBP'>GBP</option>");
+            $("#size").html("<option value='' selected disabled>--select your currency--</option><option id= 'INR' value='INR'>INR</option>");
         } else if (val == "GBP") {
-            $("#size").html("<option value='' selected disabled>--select your currency--</option><option id='INR' value='INR'>INR</option>");
+            $("#size").html("<option value='' selected disabled>--select your currency--</option><option id='INR' value='INR'>INR</option><option id='USD' value='USD'>USD</option>");
         } else if (val == "EUR") {
             $("#size").html("<option value='' selected disabled>--select your currency--</option><option id='INR' value='INR'>INR</option>");
         } else if (val == "HKD") {
-        	$("#size").html("<option value='' selected disabled>--select your currency--</option><option id='INR' value='INR'>INR</option><option id='USD' value='USD'>USD</option>");
+        	$("#size").html("<option value='' selected disabled>--select your currency--</option><option id='INR' value='INR'>INR</option>");
         } else if (val == "item0") {
             $("#size").html("<option value=''>--select your currency--</option>");
         }

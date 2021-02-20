@@ -1,0 +1,226 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #000;
+	background-color: #D3D3D3;
+	font-family: "Times New Roman", Times, sans-serif;  
+}
+
+/*HEADER*/
+#header-nav{
+	background-color: #6C83D6;
+	border-radius: 0;
+	border: 0;
+}
+
+#img-box{
+	height:100px;
+	width:100px;
+	margin: 0px 15px 0px 0px;
+}
+
+#logo-img{
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+
+.navbar-brand{padding-top: 7px;}	
+
+.navbar-brand h1{
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 24;
+	font-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	line-height: .75;
+	margin-bottom: 0;
+	color: #111111;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{text-decoration: none;}
+
+.navbar-brand p {
+	color: #000;
+	text-transform: uppercase;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16;
+	margin-top: 10px;
+}
+
+#nav-list{margin-top: 10px; }
+
+#nav-list a{
+	color: #111111;
+	text-align: center;
+}
+
+#nav-list a:hover{background: #FFFF99;}
+
+#nav-list a span{font-size: 24px;}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{border: 1px solid #474747;}
+
+.navbar-header button.navbar-toggle{
+		border: 1px solid #0C00EB;
+	clear:both;
+	margin-top: -30px;
+}
+
+/*FOOTER*/
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #474747;
+	border-top: 0;
+}
+
+.panel-footer div.row{margin-bottom: 35px;}
+
+#lp{color: #B2B5FB;}
+
+.panel-footer a:hover, .panel-footer a:focus{background: SeaGreen;}}
+
+#prices{line-height: 1.5;}
+
+#prices > span{font-size: 1.3em;}
+
+#prices a{
+	color: #fff;
+	font-size: .9em;
+}
+
+#decleration{
+	width: 50%;
+	text-align: right;
+	margin-left: auto;
+	font-style: italic;
+	color: #FFF;
+}
+
+/*HOME*/
+
+
+
+/***RESPONSIVE SCREEN SIZE***/
+/**large device**/
+@media(min-width: 1200px) {}
+
+/**medium device**/
+@media(min-width: 992px) and (max-width: 1199px) {
+		/*header*/
+		#img-box{
+			height: 80px;
+			width: 80px;
+				}
+		#nav-list a span{font-size: 20px;}
+}
+
+/**small device**/
+@media(min-width: 768px) and (max-width: 991px) {
+	/*header*/
+	#nav-list a span{font-size: 16px;}
+	.navbar-brand h1{font-size: 30px;}
+
+	/*footer*/
+	#decleration{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	}
+
+	#prices{
+		width: 100%;	
+		text-align: center;
+	}
+
+	.panel-footer div.row{text-align:center;}
+
+	/*HOME*/
+
+}
+
+/**extra small device**/
+@media(max-width: 767px) and (min-width: 478px) {
+	/*header*/
+	.navbar-brand{
+		padding-top:10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px; 
+		font-size: 5vw;
+	}	
+
+	.navbar-brand p{
+		font-size: 3vw;
+		margin-top:12px;
+	}
+
+	#collapsable-nav a{font-size: 1.2em;}
+
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px; 
+	}
+
+	/*footer*/
+	#decleration{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	}
+
+	#prices{
+		width: 100%;	
+		text-align: center;
+	}
+
+	.panel-footer div.row{text-align:center;}
+
+	/*home*/
+
+}
+
+/**Super Extra Samll Devices**/
+@media(max-width: 479px){
+	/*header*/
+	.navbar-brand h1{
+		padding-top: 5px;
+		font-size: 6vw; 
+	}
+
+	.navbar-brand p{
+		margin-top: 5px;
+		font-size: 3vw;
+	}
+
+	/*home*/
+
+
+	/*footer*/
+	#decleration{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 0;
+	}
+
+	.panel-footer div.row{
+		margin-bottom: 0;
+		text-align:center; 
+	}
+}
+
+#lst {
+			box-sizing: content-box;
+			color: darkblue;
+			float: center;
+			font-family: cursive;
+			font-size: 90%;
+			background-color: SeaGreen;
+			border: 2px solid darkblue;
+			margin: 10px 50px 10px 50px;
+	}
