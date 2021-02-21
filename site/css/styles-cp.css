@@ -103,6 +103,19 @@ body{
 
 /*HOME*/
 
+#basicbody{	margin-bottom: 5px;}
+
+.p{
+	text-align: justify;
+}
+
+
+#headcp{
+	text-align: center; 
+	justify-content: center;
+	font-size: 130%;
+}
+
 #predict-another{
 	text-align: center; 
 	justify-content: center; 
@@ -116,6 +129,16 @@ body{
 #lst-txta:visited{ text-decoration: none; color:blue;}
 #lst-txta:hover{ text-decoration: none; color:red;}
 #lst-txta:active{ text-decoration: none; color:blue;}
+
+#lst-txtb:link{ text-decoration: none; color:blue;}
+#lst-txtb:visited{ text-decoration: none; color:blue;}
+#lst-txtb:hover{ text-decoration: none; color:red;}
+#lst-txtb:active{ text-decoration: none; color:blue;}
+
+#g1, #g2{
+		margin:2px auto;
+		width: 40%;
+	}
 
 /***RESPONSIVE SCREEN SIZE***/
 /**large device**/
@@ -195,6 +218,7 @@ body{
 
 	/*home*/
 
+	#headcp{font-size: 3.5vw;}
 }
 
 /**Super Extra Samll Devices**/
@@ -212,6 +236,7 @@ body{
 
 	/*home*/
 
+	#headcp{font-size: 3.5vw;}
 
 	/*footer*/
 	#decleration{
