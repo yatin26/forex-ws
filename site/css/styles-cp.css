@@ -123,10 +123,12 @@ body{
 	align-items: center;
 }
 
-#lst-txt{font-size: 110%;
+#lst-txt
+{
 	border-style: outset;
 	border-color: #474747;
-background-color: #aaa9a9;}
+	background-color: #aaa9a9;
+}
 
 #lst-txta:link{ text-decoration: none; color:blue;}
 #lst-txta:visited{ text-decoration: none; color:blue;}
