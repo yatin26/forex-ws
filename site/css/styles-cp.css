@@ -114,6 +114,8 @@ body{
 	text-align: center; 
 	justify-content: center;
 	font-size: 130%;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
 }
 
 #predict-another{
@@ -222,8 +224,6 @@ body{
 	.panel-footer div.row{text-align:center;}
 
 	/*home*/
-
-	#headcp{font-size: 3.5vw;}
 }
 
 /**Super Extra Samll Devices**/
@@ -241,7 +241,6 @@ body{
 
 	/*home*/
 
-	#headcp{font-size: 3.5vw;}
 
 	/*footer*/
 	#decleration{
