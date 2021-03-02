@@ -107,12 +107,12 @@ body{
 
 #txta:link{	background-color: blue;	text-decoration: none; color:white;}
 #txta:visited{ background-color: blue; text-decoration: none; color:white;}
-#txta:hover{ background-color: red; text-decoration: none; color:white;}
+#txta:hover{ background-color: green; text-decoration: none; color:white;}
 #txta:active{ background-color: blue; text-decoration: none; color:white;}
 
 #txtb:link{ background-color: red; text-decoration: none; color:white; }
 #txtb:visited{ background-color: red; text-decoration: none; color:white; }
-#txtb:hover{ background-color: blue; text-decoration: none; color:white; }
+#txtb:hover{ background-color: green; text-decoration: none; color:white; }
 #txtb:active{ background-color: red; text-decoration: none; color:white; }
 
 #predictbody{
