@@ -240,6 +240,9 @@ body{
 	}
 
 	/*home*/
+	#g1, #g2{
+		width: 70%;
+	}
 
 
 	/*footer*/
