@@ -103,7 +103,14 @@ body{
 
 /*HOME*/
 
-#basicbody{	margin-bottom: 5px;}
+#basicbody{	
+	margin-bottom: 5px;
+	border-style: outset;
+	border-color: black;
+	padding-left: 3px;
+	padding-right: 3px;
+	box-shadow: 2px 2px 2px 2px #474747;
+}
 
 .p{
 	text-align: justify;
@@ -224,7 +231,9 @@ body{
 	.panel-footer div.row{text-align:center;}
 
 	/*home*/
+	#g1, #g2{width: 50%;}
 }
+
 
 /**Super Extra Samll Devices**/
 @media(max-width: 479px){
