@@ -146,10 +146,10 @@ body{
 #lst-txta:hover{ text-decoration: none; color:red;}
 #lst-txta:active{ text-decoration: none; color:blue;}
 
-#lst-txtb:link{ text-decoration: none; color:blue;}
-#lst-txtb:visited{ text-decoration: none; color:blue;}
-#lst-txtb:hover{ text-decoration: none; color:red;}
-#lst-txtb:active{ text-decoration: none; color:blue;}
+#lst-txtb:link{ text-decoration: none; color:red;}
+#lst-txtb:visited{ text-decoration: none; color:red;}
+#lst-txtb:hover{ text-decoration: none; color:green;}
+#lst-txtb:active{ text-decoration: none; color:red;}
 
 #g1, #g2{
 		margin:2px auto;
