@@ -103,6 +103,8 @@ body{
 
 /*HOME*/
 
+#last-para-div{padding-bottom: 5px;}
+
 #basicbody{	
 	margin-bottom: 10px;
 	border-style: outset;
