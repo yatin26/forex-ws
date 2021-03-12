@@ -11,7 +11,7 @@
 
 
 	<title>
-		Convert Equity- The Forex Factory
+		Results- The Forex Factory
 	</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style-con.css">
@@ -67,26 +67,7 @@
 		<div id="basicbody">
 			<b><p id="aqform" style="text-align: center; justify-content: center;">Currency-Pair you have selected is: <i><ins><span id="result1"></span>/<span id ="result2"></span></b></p></i></ins>
 
-			<form id="form" onsubmit="return myalert()" action="results.html">
-
-				<div class="forminfo"><label>Select the category of your investment</label></div>
-
-				<div class="formsel"><select id="type"  required oninvalid="this.setCustomValidity('Please select the category')" oninput="this.setCustomValidity('')">
-   						<option value="" selected disabled>--Select a Category--</option>
-    					<option value="Small">Small</option>
-    					<option value="Medium">Medium</option>
-    					<option value="Large">Large</option>
-    			</select></div>
-
-    			<div class="forminfo"><label for="amt">Enter the investment amount</label></div>
-    			<div class=""><p style="font-size: 80%;">Range From <span id="resulta"></span> To <span id="resultb"></span> In Multiples Of <span id="resultc"></span></p></div>
-
-    			<div class="formtxt"><input type="text" id="amt" name="amount" placeholder="Enter Investment Amount (ranging from to in multiples of )" required oninvalid="this.setCustomValidity('Please enter the investment amount')" oninput="this.setCustomValidity('')">
-		    	</div>
-
-    			<div class="formbtn"><button id="btn22" type="submit"><b>CONFIRM!</b></button></div>
-
-			</form>
+			<p></p>
 			
 		</div>
 		
@@ -141,24 +122,6 @@
 	<script type="text/javascript">
 		document.getElementById("result1").innerHTML=localStorage.getItem("ltval");
 		document.getElementById("result2").innerHTML=localStorage.getItem("rtval");
-	</script>
-
-	<script type="text/javascript">
-	function myalert() {
-		var ctgs = document.getElementById("type");
-		var ctg = ctgs[ctgs.selectedIndex].value;
-		var amt = document.getElementById("amt").value;
-	
-
-		localStorage.setItem("ctg",ctg);
-		localStorage.setItem("amt",amt);
-	}
-	</script>
-
-	<script type="text/javascript">
-		document.getElementById("resulta").innerHTML;
-		document.getElementById("resultb").innerHTML;
-		document.getElementById("resultc").innerHTML;
 	</script>
 
 </body>
