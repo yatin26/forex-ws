@@ -133,6 +133,8 @@ body{
 	margin-top: 10px;
 }
 
+#amt{width: 50%;}
+
 input[type=tel] {
   box-shadow: 0 0 10px #474747;
   width: 100%;
