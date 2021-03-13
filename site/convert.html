@@ -9,6 +9,20 @@
 	<script src="js/bootstrap.js"></script>
 	<script src="js/scripts.js"></script>
 
+	<script type="text/javascript">
+	$(document).ready(function () {
+    $("#type").change(function () {
+        var val = $(this).val();
+        if (val == "Small") {
+            $("#pform").html("(Range: From <b>0</b> To <b>499</b>,In Multiples Of <b>50</b>.)");
+        } else if (val == "Medium") {
+            $("#pform").html("(Range: From <b>500</b> To <b>7500</b>,In Multiples Of <b>500</b>.)");
+        } else if (val == "Large") {
+            $("#pform").html("(Range: From <b>10000</b> To <b>20000</b>,In Multiples Of <b>5000</b>.)");
+        }
+    });
+});
+	</script>
 
 	<title>
 		Convert Equity- The Forex Factory
@@ -79,9 +93,9 @@
     			</select></div>
 
     			<div class="forminfo"><label for="amt">Enter the investment amount</label></div>
-    			<div class=""><p style="font-size: 80%;">(Range: From <span id="resulta"></span> To <span id="resultb"></span> ,In Multiples Of <span id="resultc"></span>.)</p></div>
+    			<div><p style="font-size: 80%;" id="pform"></p></div>
 
-    			<div class="formtxt"><input type="tel" id="amt" name="amount" placeholder="Enter Investment Amount" required oninvalid="this.setCustomValidity('Please enter the investment amount')" oninput="this.setCustomValidity('')">
+    			<div class="formtxt" id="formdiv"><input type="text" id="amt" name="amount" placeholder="Enter Investment Amount" required oninvalid="this.setCustomValidity('Please enter the investment amount')" oninput="this.setCustomValidity('')">
 		    	</div>
 
     			<div class="formbtn"><button id="btn22" type="submit"><b>CONFIRM!</b></button></div>
@@ -144,22 +158,15 @@
 	</script>
 
 	<script type="text/javascript">
-	function myalert() {
-		var ctgs = document.getElementById("type");
-		var ctg = ctgs[ctgs.selectedIndex].value;
-		var amt = document.getElementById("amt").value;
+		function myalert() {
+			var ctgs = document.getElementById("type");
+			var ctg = ctgs[ctgs.selectedIndex].value;
+			var amt = document.getElementById("amt").value;
 	
 
-		localStorage.setItem("ctg",ctg);
-		localStorage.setItem("amt",amt);
-	}
-	</script>
-
-	<script type="text/javascript">
-
-		document.getElementById("resulta").innerHTML;
-		document.getElementById("resultb").innerHTML;
-		document.getElementById("resultc").innerHTML;
+			localStorage.setItem("ctg",ctg);
+			localStorage.setItem("amt",amt);
+		}
 	</script>
 
 </body>
