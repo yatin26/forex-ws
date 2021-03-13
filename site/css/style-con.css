@@ -135,14 +135,14 @@ body{
 
 #amt{width: 50%;}
 
-input[type=text] {
+input{
   box-shadow: 0 0 3px #474747;
   width: 100%;
   border: 1px solid #474747;
   background-color: #A1B2ED;
 }
 
-input[type=text]:disabled{background-color: #C4CCE9}
+input:disabled{background-color: #C4CCE9}
 
 ::placeholder {
 	color: #474747;

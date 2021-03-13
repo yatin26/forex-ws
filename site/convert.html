@@ -25,7 +25,7 @@
 	});
 	</script>
 
-	<script type="text/javascript">
+		<script type="text/javascript">
 		$(document).ready(function(){
 			$('#type').val("0");
 
@@ -35,11 +35,37 @@
 				if (selectVal == 0) {
 					$('#amt').prop("disabled",true);
 				}
-				else{
+				else if (selectVal == "Small") {
 					$('#amt').prop("disabled",false);
+		            $("#amt").prop("pattern","50|100|150|200|250|300|350|400|450");
+				}
+				else if (selectVal == "Medium") {
+					$('#amt').prop("disabled",false);
+		            $("#amt").prop("pattern","500|1000|1500|2000|2500|3000|3500|4000|4500|5000|5500|6000|6500|7000|7500");
+				}
+				else if (selectVal == "Large") {
+					$('#amt').prop("disabled",false);
+	        	    $("#amt").prop("pattern","10000|15000|20000");
 				}
 			})
 		})
+	</script>
+
+
+	<script type="text/javascript">
+
+		$(document).ready(function () {
+    	$("#type").change(function () {
+        	var val = $(this).val();
+        	if (val == "Small") {
+	            $("#amoun").html("<option value='50'><option value='100'><option value='150'><option value='200'><option value='250'><option value='300'><option value='350'><option value='400'><option value='450'>");
+        	} else if (val == "Medium") {
+	            $("#amoun").html("<option value='500'><option value='1000'><option value='1500'><option value='2000'><option value='2500'><option value='3000'><option value='3500'><option value='4000'><option value='4500'><option value='5000'><option value='5500'><option value='6000'><option value='6500'><option value='7000'><option value='7500'>");
+    	    } else if (val == "Large") {
+        	    $("#amoun").html("<option value='10000'><option value='15000'><option value='20000'>");
+        	}
+    	});
+	});
 	</script>
 
 	<title>
@@ -113,7 +139,10 @@
     			<div class="forminfo"><label for="amt">Enter the investment amount</label></div>
     			<div><p style="font-size: 90%;" id="pform"></p></div>
 
-    			<div class="formtxt" id="formdiv"><input disabled type="text" id="amt" name="amount" placeholder="Enter Investment Amount" required oninvalid="this.setCustomValidity('Please enter the investment amount')" oninput="this.setCustomValidity('')" autocomplete="off">
+    			<div class="formtxt" id="formdiv">
+    				<input disabled list="amoun" id="amt" pattern name="amount" placeholder="Enter Investment Amount" required oninvalid="this.setCustomValidity('Enter the investment amount as mentioned')" oninput="this.setCustomValidity('')" autocomplete="off">
+    				<datalist id="amoun"></datalist>
+
 		    	</div>
 
     			<div class="formbtn"><button id="btn22" type="submit"><b>CONFIRM!</b></button></div>
