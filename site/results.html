@@ -69,12 +69,14 @@
 
 			<b><p id="aqwform" style="text-align: center; justify-content: center;">Amount you wish to invest: <i><span id="result3"></span></b></p></i>
 
-			<p></p>
+			<img id="g1" style="display: block; margin: 10px auto 15px auto;">
+
+			<img id="g2" style="display: block; margin: 10px auto 15px auto;">
 
 		</div>
 
 	<div id="convert-another">
-		<p id="lst-txt">To change the amount you have to invest <a id="lst-txta" href="convert.html">Click Here</a></p> 
+		<p id="lst-txt">To change the amount you wish to invest <a id="lst-txta" href="convert.html">Click Here</a></p> 
 
 		<p id="lst-txt">To predict the equity of another currency pair, <a id="lst-txta" href="prediction.html">Click Here</a></p>
 	</div>
@@ -134,9 +136,19 @@
 		else if (cur == "USD") {sym="$";}
 		var amt = localStorage.getItem("amt");
 		var txt = sym + amt;
+		var lft = localStorage.getItem("ltval");
 		document.getElementById("result1").innerHTML=localStorage.getItem("ltval");
 		document.getElementById("result2").innerHTML=localStorage.getItem("rtval");
 		document.getElementById("result3").innerHTML=txt;
+
+		var img1 = "images/"+lft+cur+"/a"+amt+".png";
+		var img2 = "images/"+lft+cur+"/b"+amt+".png";
+
+		g1=document.getElementById("g1");
+		g2=document.getElementById("g2");
+
+		g1.src=img1;
+		g2.src=img2;
 	</script>
 
 </body>
