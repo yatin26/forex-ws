@@ -135,11 +135,15 @@ body{
 
 #amt{width: 50%;}
 
-input[type=tel] {
-  box-shadow: 0 0 10px #474747;
+input[type=text] {
+  box-shadow: 0 0 3px #474747;
   width: 100%;
-  padding: 12px;
   border: 1px solid #474747;
+  background-color: #A1B2ED;
+}
+::placeholder { 
+  color: #474747;
+  opacity: 1; 
 }
 
 .formsel select{
