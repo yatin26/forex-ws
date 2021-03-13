@@ -67,16 +67,75 @@
 		<div id="basicbody">
 			<b><p id="aqform" style="text-align: center; justify-content: center;">Currency-Pair you have selected is: <i><ins><span id="result1"></span>/<span id ="result2"></span></b></p></i></ins>
 
+			<b><p id="aqform" style="text-align: center; justify-content: center;">Accuracy of the selected currency-pair is: <i><span id="accuracy"></span></b></p></i>
+
 			<b><p id="aqwform" style="text-align: center; justify-content: center;">Amount you wish to invest: <i><span id="result3"></span></b></p></i>
 
 			<img id="g1" style="display: block; margin: 10px auto 15px auto;">
 
+			<p id="txt-lst">The graph above shows the total number of trades conducted on x axis and the amount on the y axis. The vertical lines show the trades where green and the red lines shows the trades won and lost respectively.</p> 
+
+			<table id="table">
+				<b><caption style="text-align: center; color: #474747;"><span id="cptn"></span></caption></b>
+				<tr class="tr">
+					<th class="th">Attribute</th>
+					<th class="th">Value</th>
+				</tr>
+				
+				<tr class="tr">
+					<td class="td">Net Profit</td>
+					<td class="td1"><span id="NProfit"></span></td>
+				</tr>
+				
+				<tr class="tr">
+					<td class="td">Number of Winning Trades</td>
+					<td class="td1"><span id="NWTrade"></span></td>
+				</tr>
+
+				<tr class="tr">
+					<td class="td">Number of Losing Trades</td>
+					<td class="td1"><span id="NLTrade"></span></td>
+				</tr>
+
+				<tr class="tr">
+					<td class="td">Percent Profitable</td>
+					<td class="td1"><span id="PProfit"></span></td>
+				</tr>
+
+				<tr class="tr">
+					<td class="td">Average of Win Trades</td>
+					<td class="td1"><span id="AWTrade"></span></td>
+				</tr>
+
+				<tr class="tr">
+					<td class="td">Average of Loss Trades</td>
+					<td class="td1"><span id="ALTrade"></span></td>
+				</tr>
+
+				<tr class="tr">
+					<td class="td">Largest Win Trade</td>
+					<td class="td1"><span id="LWTrade"></span></td>
+				</tr>
+
+				<tr class="tr">
+					<td class="td">Largest Loss Trade</td>
+					<td class="td1"><span id="LLTrade"></span></td>
+				</tr>
+
+				<tr class="tr">
+					<td class="td">Profit Factor</td>
+					<td class="td1"><span id="Pfactor"></span></td>
+				</tr>
+			</table>
+
 			<img id="g2" style="display: block; margin: 10px auto 15px auto;">
+
+			<p id="txt-lst"> The graph above shows the amount of money won per trade.</p>
 
 		</div>
 
 	<div id="convert-another">
-		<p id="lst-txt">To change the amount you wish to invest <a id="lst-txta" href="convert.html">Click Here</a></p> 
+		<p id="lst-txt">To change the amount you wish to invest <a id="lst-txta" href="convert.html">Click Here</a></p>
 
 		<p id="lst-txt">To predict the equity of another currency pair, <a id="lst-txta" href="prediction.html">Click Here</a></p>
 	</div>
@@ -129,27 +188,7 @@
 	</div>	
 </footer>
 	
-	<script type="text/javascript">
-		var cur = localStorage.getItem("rtval");
-		var sym;
-		if (cur == "INR") {sym="₹";}
-		else if (cur == "USD") {sym="$";}
-		var amt = localStorage.getItem("amt");
-		var txt = sym + amt;
-		var lft = localStorage.getItem("ltval");
-		document.getElementById("result1").innerHTML=localStorage.getItem("ltval");
-		document.getElementById("result2").innerHTML=localStorage.getItem("rtval");
-		document.getElementById("result3").innerHTML=txt;
-
-		var img1 = "images/"+lft+cur+"/a"+amt+".png";
-		var img2 = "images/"+lft+cur+"/b"+amt+".png";
-
-		g1=document.getElementById("g1");
-		g2=document.getElementById("g2");
-
-		g1.src=img1;
-		g2.src=img2;
-	</script>
+	<script type="text/javascript" src="js/result.js"></script>
 
 </body>
 </html>

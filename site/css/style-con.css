@@ -64,7 +64,7 @@ body{
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{border: 1px solid #474747;}
 
 .navbar-header button.navbar-toggle{
-		border: 1px solid #0C00EB;
+	border: 1px solid #0C00EB;
 	clear:both;
 	margin-top: -30px;
 }
@@ -127,6 +127,35 @@ body{
 #lst-txta:visited{ text-decoration: none; color:blue;}
 #lst-txta:hover{ text-decoration: none; color:red;}
 #lst-txta:active{ text-decoration: none; color:blue;}
+
+#txt-lst{
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: justify;
+	justify-content: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#table{
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th, td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+th{text-align: center;}
+
+.td1 {text-align: center;}
+
+.th, .td{font-size: 110%;}
 
 #convert-another{
 	text-align: center; 
