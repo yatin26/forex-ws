@@ -141,9 +141,12 @@ input[type=text] {
   border: 1px solid #474747;
   background-color: #A1B2ED;
 }
-::placeholder { 
-  color: #474747;
-  opacity: 1; 
+
+input[type=text]:disabled{background-color: #C4CCE9}
+
+::placeholder {
+	color: #474747;
+	font-size: 90%;
 }
 
 .formsel select{

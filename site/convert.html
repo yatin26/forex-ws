@@ -10,18 +10,36 @@
 	<script src="js/scripts.js"></script>
 
 	<script type="text/javascript">
-	$(document).ready(function () {
-    $("#type").change(function () {
-        var val = $(this).val();
-        if (val == "Small") {
-            $("#pform").html("(Range: From <b>0</b> To <b>499</b>,In Multiples Of <b>50</b>.)");
-        } else if (val == "Medium") {
-            $("#pform").html("(Range: From <b>500</b> To <b>7500</b>,In Multiples Of <b>500</b>.)");
-        } else if (val == "Large") {
-            $("#pform").html("(Range: From <b>10000</b> To <b>20000</b>,In Multiples Of <b>5000</b>.)");
-        }
-    });
-});
+
+		$(document).ready(function () {
+    	$("#type").change(function () {
+        	var val = $(this).val();
+        	if (val == "Small") {
+	            $("#pform").html("(Range: From <b>0</b> To <b>499</b>,In Multiples Of <b>50</b>.)");
+        	} else if (val == "Medium") {
+	            $("#pform").html("(Range: From <b>500</b> To <b>7500</b>,In Multiples Of <b>500</b>.)");
+    	    } else if (val == "Large") {
+        	    $("#pform").html("(Range: From <b>10000</b> To <b>20000</b>,In Multiples Of <b>5000</b>.)");
+        	}
+    	});
+	});
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#type').val("0");
+
+			$('#type').change(function(){
+				selectVal = $('#type').val();
+
+				if (selectVal == 0) {
+					$('#amt').prop("disabled",true);
+				}
+				else{
+					$('#amt').prop("disabled",false);
+				}
+			})
+		})
 	</script>
 
 	<title>
@@ -86,7 +104,7 @@
 				<div class="forminfo"><label>Select the category of your investment</label></div>
 
 				<div class="formsel"><select id="type"  required oninvalid="this.setCustomValidity('Please select the category')" oninput="this.setCustomValidity('')">
-   						<option value="" selected disabled>--Select a Category--</option>
+   						<option value="0" selected disabled>--Select a Category--</option>
     					<option value="Small">Small</option>
     					<option value="Medium">Medium</option>
     					<option value="Large">Large</option>
@@ -95,7 +113,7 @@
     			<div class="forminfo"><label for="amt">Enter the investment amount</label></div>
     			<div><p style="font-size: 90%;" id="pform"></p></div>
 
-    			<div class="formtxt" id="formdiv"><input type="text" id="amt" name="amount" placeholder="Enter Investment Amount" required oninvalid="this.setCustomValidity('Please enter the investment amount')" oninput="this.setCustomValidity('')">
+    			<div class="formtxt" id="formdiv"><input disabled type="text" id="amt" name="amount" placeholder="Enter Investment Amount" required oninvalid="this.setCustomValidity('Please enter the investment amount')" oninput="this.setCustomValidity('')" autocomplete="off">
 		    	</div>
 
     			<div class="formbtn"><button id="btn22" type="submit"><b>CONFIRM!</b></button></div>
