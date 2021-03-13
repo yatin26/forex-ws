@@ -9,16 +9,7 @@
 	var img1 = "images/"+cp+"/a"+amt+".png";
 	var img2 = "images/"+cp+"/b"+amt+".png";
 
-	var accuracy;
-	var npt;
-	var nwt;
-	var nlt;
-	var ppt;
-	var awt;
-	var alt;
-	var lwt;
-	var Llt;
-	var pft;
+	var accuracy; var npt; var nwt; var nlt; var ppt; var awt; var alt; var lwt; var Llt; var pft;
 
 	document.getElementById("result1").innerHTML=localStorage.getItem("ltval");
 	document.getElementById("result2").innerHTML=localStorage.getItem("rtval");
@@ -32,7 +23,7 @@
 
 	if (lft=="USD" && cur=="INR") 
 	{
-		accuracy = "59.84%";
+		acc = "59.84%";
 		nwt = "75";
 		nlt = "50";
 		ppt = "60%";
@@ -255,6 +246,27 @@
 			Llt = "$-14325.860";
 		}
 	}
+
+	else if (lft=="GBP" && cur=="INR") 
+	{
+
+	}
+
+	else if (lft=="GBP" && cur=="USD") 
+	{
+		
+	}
+
+	else if (lft=="HKD" && cur=="USD") 
+	{
+		
+	}
+
+	else if (lft=="EUR" && cur=="INR") 
+	{
+		
+	}
+
 	document.getElementById("NProfit").innerHTML = npt;
 	document.getElementById("NWTrade").innerHTML = nwt;
 	document.getElementById("NLTrade").innerHTML = nlt;
@@ -264,4 +276,4 @@
 	document.getElementById("LWTrade").innerHTML = lwt;
 	document.getElementById("LLTrade").innerHTML = Llt;
 	document.getElementById("Pfactor").innerHTML = pft;
-	document.getElementById("accuracy").innerHTML = accuracy;
+	document.getElementById("acuracy").innerHTML = acc;
