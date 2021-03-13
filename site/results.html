@@ -67,10 +67,18 @@
 		<div id="basicbody">
 			<b><p id="aqform" style="text-align: center; justify-content: center;">Currency-Pair you have selected is: <i><ins><span id="result1"></span>/<span id ="result2"></span></b></p></i></ins>
 
+			<b><p id="aqwform" style="text-align: center; justify-content: center;">Amount you wish to invest: <i><span id="result3"></span></b></p></i>
+
 			<p></p>
-			
+
 		</div>
-		
+
+	<div id="convert-another">
+		<p id="lst-txt">To change the amount you have to invest <a id="lst-txta" href="convert.html">Click Here</a></p> 
+
+		<p id="lst-txt">To predict the equity of another currency pair, <a id="lst-txta" href="prediction.html">Click Here</a></p>
+	</div>
+
 		<div id="home-tiles" class="row">		
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				<a href="forex.html">
@@ -120,8 +128,15 @@
 </footer>
 	
 	<script type="text/javascript">
+		var cur = localStorage.getItem("rtval");
+		var sym;
+		if (cur == "INR") {sym="₹";}
+		else if (cur == "USD") {sym="$";}
+		var amt = localStorage.getItem("amt");
+		var txt = sym + amt;
 		document.getElementById("result1").innerHTML=localStorage.getItem("ltval");
 		document.getElementById("result2").innerHTML=localStorage.getItem("rtval");
+		document.getElementById("result3").innerHTML=txt;
 	</script>
 
 </body>

@@ -114,6 +114,27 @@ body{
 
 #aqform{font-size: 130%;}
 
+#aqwform{font-size:130%;}
+
+#lst-txt
+{
+	border-style: outset;
+	border-color: #474747;
+	background-color: #aaa9a9;
+}
+
+#lst-txta:link{ text-decoration: none; color:blue;}
+#lst-txta:visited{ text-decoration: none; color:blue;}
+#lst-txta:hover{ text-decoration: none; color:red;}
+#lst-txta:active{ text-decoration: none; color:blue;}
+
+#convert-another{
+	text-align: center; 
+	justify-content: center; 
+	margin: 5px auto 15px;
+	align-items: center;
+}
+
 #form{
 	border: 2px black solid;
 	width: 50%;
