@@ -196,11 +196,11 @@
 
 	else if (lft=="GBP" && cur=="INR") 
 	{
-		acc = "";
-		nwt = "";
-		nlt = "";
-		ppt = "";
-		pft = "";
+		acc = "51.07%";
+		nwt = "95";
+		nlt = "90";
+		ppt = "51.35%";
+		pft = "1.25";
 
 		if (amt == "50") { 
 			npt = "£";
@@ -369,11 +369,11 @@
 
 	else if (lft=="GBP" && cur=="USD") 
 	{
-		acc = "";
-		nwt = "";
-		nlt = "";
-		ppt = "";
-		pft = "";
+		acc = "66.67%";
+		nwt = "5";
+		nlt = "3";
+		ppt = "62.50%";
+		pft = "3.76";
 
 		if (amt == "50") { 
 			npt = "£";
@@ -542,11 +542,11 @@
 
 	else if (lft=="HKD" && cur=="USD") 
 	{
-		acc = "";
-		nwt = "";
-		nlt = "";
-		ppt = "";
-		pft = "";
+		acc = "33.33%";
+		nwt = "2";
+		nlt = "6";
+		ppt = "25.00%";
+		pft = "0.83";
 
 		if (amt == "50") { 
 			npt = "$";
@@ -715,11 +715,11 @@
 
 	else if (lft=="EUR" && cur=="INR") 
 	{
-		acc = "";
-		nwt = "";
-		nlt = "";
-		ppt = "";
-		pft = "";
+		acc = "75.00%";
+		nwt = "9";
+		nlt = "2";
+		ppt = "81.82%";
+		pft = "6.61";
 
 		if (amt == "50") { 
 			npt = "€";
