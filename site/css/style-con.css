@@ -103,6 +103,13 @@ body{
 
 /*HOME*/
 
+#g1{
+	margin:2px auto;
+	width: 50%;
+}
+
+#g2{margin: 2px auto;}
+
 #basicbody{	
 	margin-bottom: 10px;
 	border-style: outset;
@@ -121,6 +128,7 @@ body{
 	border-style: outset;
 	border-color: #474747;
 	background-color: #aaa9a9;
+	font-size: 120%;
 }
 
 #lst-txta:link{ text-decoration: none; color:blue;}
@@ -353,6 +361,9 @@ color: #fff;
 
 	/*home*/
 
+	#g1, #g2{width: 50%;}
+
+
 	#form{width: 60%;}
 
 	#last-para-basic{
@@ -380,6 +391,10 @@ color: #fff;
 	}
 
 	/*home*/
+
+	#g1, #g2{
+		width: 70%;
+	}
 
 	#form{width:90%;}
 
