@@ -136,7 +136,7 @@
     					<option value="Large">Large</option>
     			</select></div>
 
-    			<div class="forminfo"><label for="amt">Enter the investment amount</label></div>
+    			<div class="forminfo"><label for="amt">Enter the investment amount (in <span id="symcon"></span>)</label></div>
     			<div><p style="font-size: 90%;" id="pform"></p></div>
 
     			<div class="formtxt" id="formdiv">
@@ -202,6 +202,11 @@
 	<script type="text/javascript">
 		document.getElementById("result1").innerHTML=localStorage.getItem("ltval");
 		document.getElementById("result2").innerHTML=localStorage.getItem("rtval");
+		var cur = localStorage.getItem("rtval");
+		var sym;
+		if (cur == "INR") {sym="₹";}
+		else if (cur == "USD") {sym="$";}
+		document.getElementById("symcon").innerHTML=sym;
 	</script>
 
 	<script type="text/javascript">
