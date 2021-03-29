@@ -203,163 +203,163 @@
 		pft = "1.25";
 
 		if (amt == "50") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "100") {
-			awt = sym + ""; 
+			npt = sym + ""; 
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "150") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "200") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "250") {
-			awt = sym + ""; 
+			npt = sym + ""; 
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "300") {
-			awt = sym + ""; 
+			npt = sym + ""; 
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "350") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "400") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "450") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "500") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "1000") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "1500") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "2000") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "2500") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "3000") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "3500") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "4000") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "4500") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "5000") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "5500") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "6000") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "6500") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "7000") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "7500") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "10000") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "15000") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
 			Llt = sym + "";
 		} else if (amt == "20000") { 
-			awt = sym + "";
+			npt = sym + "";
 			awt = sym + "";
 			alt = sym + "";
 			lwt = sym + "";
@@ -376,163 +376,163 @@
 		pft = "3.76";
 
 		if (amt == "50") { 
-			awt = sym + "0.85";
+			npt = sym + "0.85";
 			awt = sym + "0.232";
 			alt = sym + "-0.103";
 			lwt = sym + "0.355";
 			Llt = sym + "-0.139";
 		} else if (amt == "100") {
-			awt = sym + "1.70"; 
+			npt = sym + "1.70"; 
 			awt = sym + "0.464";
 			alt = sym + "-0.205";
 			lwt = sym + "0.711";
 			Llt = sym + "-0.278";
 		} else if (amt == "150") { 
-			awt = sym + "2.55";
+			npt = sym + "2.55";
 			awt = sym + "0.696";
 			alt = sym + "-0.308";
 			lwt = sym + "1.066";
 			Llt = sym + "-0.417";
 		} else if (amt == "200") { 
-			awt = sym + "3.41";
+			npt = sym + "3.41";
 			awt = sym + "0.928";
 			alt = sym + "-0.411";
 			lwt = sym + "1.421";
 			Llt = sym + "-0.556";
 		} else if (amt == "250") {
-			awt = sym + "4.26"; 
+			npt = sym + "4.26"; 
 			awt = sym + "1.160";
 			alt = sym + "-0.513";
 			lwt = sym + "1.777";
 			Llt = sym + "-0.695";
 		} else if (amt == "300") {
-			awt = sym + "5.11"; 
+			npt = sym + "5.11"; 
 			awt = sym + "1.392";
 			alt = sym + "-0.616";
 			lwt = sym + "2.132";
 			Llt = sym + "-0.834";
 		} else if (amt == "350") { 
-			awt = sym + "5.96";
+			npt = sym + "5.96";
 			awt = sym + "1.623";
 			alt = sym + "-0.719";
 			lwt = sym + "2.487";
 			Llt = sym + "-0.973";
 		} else if (amt == "400") { 
-			awt = sym + "6.81";
+			npt = sym + "6.81";
 			awt = sym + "1.855";
 			alt = sym + "-0.821";
 			lwt = sym + "2.842";
 			Llt = sym + "-1.112";
 		} else if (amt == "450") { 
-			awt = sym + "7.66";
+			npt = sym + "7.66";
 			awt = sym + "2.087";
 			alt = sym + "-0.924";
 			lwt = sym + "3.198";
 			Llt = sym + "-1.251";
 		} else if (amt == "500") { 
-			awt = sym + "8.52";
+			npt = sym + "8.52";
 			awt = sym + "2.319";
 			alt = sym + "-1.027";
 			lwt = sym + "3.553";
 			Llt = sym + "-1.390";
 		} else if (amt == "1000") { 
-			awt = sym + "17.03";
+			npt = sym + "17.03";
 			awt = sym + "4.638";
 			alt = sym + "-2.053";
 			lwt = sym + "7.106";
 			Llt = sym + "-2.780";
 		} else if (amt == "1500") { 
-			awt = sym + "25.55";
+			npt = sym + "25.55";
 			awt = sym + "6.958";
 			alt = sym + "-3.080";
 			lwt = sym + "10.659";
 			Llt = sym + "-4.170";
 		} else if (amt == "2000") { 
-			awt = sym + "34.06";
+			npt = sym + "34.06";
 			awt = sym + "9.277";
 			alt = sym + "-4.107";
 			lwt = sym + "14.212";
 			Llt = sym + "-5.560";
 		} else if (amt == "2500") { 
-			awt = sym + "42.58";
+			npt = sym + "42.58";
 			awt = sym + "11.596";
 			alt = sym + "-5.133";
 			lwt = sym + "17.765";
 			Llt = sym + "-6.950";
 		} else if (amt == "3000") { 
-			awt = sym + "51.10";
+			npt = sym + "51.10";
 			awt = sym + "13.915";
 			alt = sym + "-6.160";
 			lwt = sym + "21.318";
 			Llt = sym + "-8.340";
 		} else if (amt == "3500") { 
-			awt = sym + "59.61";
+			npt = sym + "59.61";
 			awt = sym + "16.234";
 			alt = sym + "-7.187";
 			lwt = sym + "24.871";
 			Llt = sym + "-9.730";
 		} else if (amt == "4000") { 
-			awt = sym + "68.13";
+			npt = sym + "68.13";
 			awt = sym + "18.554";
 			alt = sym + "-8.213";
 			lwt = sym + "28.424";
 			Llt = sym + "-11.120";
 		} else if (amt == "4500") { 
-			awt = sym + "76.64";
+			npt = sym + "76.64";
 			awt = sym + "20.873";
 			alt = sym + "-9.240";
 			lwt = sym + "31.977";
 			Llt = sym + "-12.510";
 		} else if (amt == "5000") { 
-			awt = sym + "85.16";
+			npt = sym + "85.16";
 			awt = sym + "23.192";
 			alt = sym + "-10.267";
 			lwt = sym + "35.530";
 			Llt = sym + "-13.900";
 		} else if (amt == "5500") { 
-			awt = sym + "93.68";
+			npt = sym + "93.68";
 			awt = sym + "25.511";
 			alt = sym + "-11.293";
 			lwt = sym + "39.083";
 			Llt = sym + "-15.290";
 		} else if (amt == "6000") { 
-			awt = sym + "102.19";
+			npt = sym + "102.19";
 			awt = sym + "27.830";
 			alt = sym + "-12.320";
 			lwt = sym + "42.636";
 			Llt = sym + "-16.680";
 		} else if (amt == "6500") { 
-			awt = sym + "110.71";
+			npt = sym + "110.71";
 			awt = sym + "30.150";
 			alt = sym + "-13.347";
 			lwt = sym + "46.189";
 			Llt = sym + "-18.070";
 		} else if (amt == "7000") { 
-			awt = sym + "119.22";
+			npt = sym + "119.22";
 			awt = sym + "32.469";
 			alt = sym + "-14.373";
 			lwt = sym + "49.742";
 			Llt = sym + "-19.460";
 		} else if (amt == "7500") { 
-			awt = sym + "127.74";
+			npt = sym + "127.74";
 			awt = sym + "34.788";
 			alt = sym + "-15.400";
 			lwt = sym + "53.295";
 			Llt = sym + "-20.850";
 		} else if (amt == "10000") { 
-			awt = sym + "170.32";
+			npt = sym + "170.32";
 			awt = sym + "46.384";
 			alt = sym + "-20.533";
 			lwt = sym + "71.060";
 			Llt = sym + "-27.800";
 		} else if (amt == "15000") { 
-			awt = sym + "255.48";
+			npt = sym + "255.48";
 			awt = sym + "69.576";
 			alt = sym + "-30.800";
 			lwt = sym + "106.590";
 			Llt = sym + "-41.700";
 		} else if (amt == "20000") { 
-			awt = sym + "340.64";
+			npt = sym + "340.64";
 			awt = sym + "92.768";
 			alt = sym + "-41.067";
 			lwt = sym + "142.120";
