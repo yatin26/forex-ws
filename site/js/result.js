@@ -299,17 +299,17 @@
 			lwt = sym + "6207.751";
 			Llt = sym + "-6819.355";
 		} else if (amt == "4000") { 
-			npt = sym + "";
-			awt = sym + "";
-			alt = sym + "";
-			lwt = sym + "";
-			Llt = sym + "";
+			npt = sym + "34118.34";
+			awt = sym + "1799.931";
+			alt = sym + "-1520.835";
+			lwt = sym + "7094.572";
+			Llt = sym + "-7793.548";
 		} else if (amt == "4500") { 
-			npt = sym + "";
-			awt = sym + "";
-			alt = sym + "";
-			lwt = sym + "";
-			Llt = sym + "";
+			npt = sym + "38383.13";
+			awt = sym + "2024.923";
+			alt = sym + "-1710.939";
+			lwt = sym + "7981.394";
+			Llt = sym + "-8767.742";
 		} else if (amt == "5000") { 
 			npt = sym + "";
 			awt = sym + "";
