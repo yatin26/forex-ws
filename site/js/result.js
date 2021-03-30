@@ -311,41 +311,41 @@
 			lwt = sym + "7981.394";
 			Llt = sym + "-8767.742";
 		} else if (amt == "5000") { 
-			npt = sym + "";
-			awt = sym + "";
-			alt = sym + "";
-			lwt = sym + "";
-			Llt = sym + "";
+			npt = sym + "42647.92";
+			awt = sym + "2249.914";
+			alt = sym + "-1901.043";
+			lwt = sym + "8868.215";
+			Llt = sym + "-9741.935";
 		} else if (amt == "5500") { 
-			npt = sym + "";
-			awt = sym + "";
-			alt = sym + "";
-			lwt = sym + "";
-			Llt = sym + "";
+			npt = sym + "46912.71";
+			awt = sym + "2474.905";
+			alt = sym + "-2091.148";
+			lwt = sym + "9755.037";
+			Llt = sym + "-10716.129";
 		} else if (amt == "6000") { 
-			npt = sym + "";
-			awt = sym + "";
-			alt = sym + "";
-			lwt = sym + "";
-			Llt = sym + "";
+			npt = sym + "51177.50";
+			awt = sym + "2699.897";
+			alt = sym + "-2281.252";
+			lwt = sym + "10641.858";
+			Llt = sym + "-11690.322";
 		} else if (amt == "6500") { 
-			npt = sym + "";
-			awt = sym + "";
-			alt = sym + "";
-			lwt = sym + "";
-			Llt = sym + "";
+			npt = sym + "55442.30";
+			awt = sym + "2924.888";
+			alt = sym + "-2471.356";
+			lwt = sym + "11528.680";
+			Llt = sym + "-12664.516";
 		} else if (amt == "7000") { 
-			npt = sym + "";
-			awt = sym + "";
-			alt = sym + "";
-			lwt = sym + "";
-			Llt = sym + "";
+			npt = sym + "59707.09";
+			awt = sym + "3149.879";
+			alt = sym + "-2661.461";
+			lwt = sym + "12415.501";
+			Llt = sym + "-13638.709";
 		} else if (amt == "7500") { 
-			npt = sym + "";
-			awt = sym + "";
-			alt = sym + "";
-			lwt = sym + "";
-			Llt = sym + "";
+			npt = sym + "63971.88";
+			awt = sym + "3374.871";
+			alt = sym + "-2851.565";
+			lwt = sym + "13302.323";
+			Llt = sym + "-14612.903";
 		} else if (amt == "10000") { 
 			npt = sym + "85295.84";
 			awt = sym + "4499.828";
